@@ -59,7 +59,7 @@
     "id": "ottawa_bike_shop",
     "name": "Ottawa Bike and Trail",
     "type": "Bike Shop",
-    "nearestTownId": "osawatomie",
+    "nearestTownId": "ottawa",
     "distanceFromTrail": 0.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ottawa+Bike+and+Trail+KS",
     "websiteUrl": "https://ottawabikeandtrail.com/",
