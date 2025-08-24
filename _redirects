@@ -1,0 +1,4 @@
+# Force HTTPS and www to root domain
+https://www.fhtplanner.com/*   https://fhtplanner.com/:splat   301!
+http://www.fhtplanner.com/*    https://fhtplanner.com/:splat   301!
+http://fhtplanner.com/*        https://fhtplanner.com/:splat   301!
