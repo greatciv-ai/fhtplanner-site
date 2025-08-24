@@ -276,7 +276,7 @@
     "name": "Basecamp Flint Hills",
     "type": "Camping",
     "nearestTownId": "allen",
-    "distanceFromTrail": 1.5,
+    "distanceFromTrail": 0.1,
     "googleMapsUrl": "https://www.hipcamp.com/en-US/kansas/basecamp-flint-hills/basecamp-flint-hills",
     "websiteUrl": "https://www.basecampflinthills.com/",
     "description": "Hipcamp location offering campsites for tents and small RVs."
