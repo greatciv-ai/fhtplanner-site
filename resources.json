@@ -1,422 +1,383 @@
 [
- {
-   "id": "osawatomie_parking",
-   "name": "Mile Zero Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "osawatomie",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Osawatomie+Trailhead",
-   "websiteUrl": "",
-   "description": "Official eastern terminus of the trail located at the Karl E. Cole Sports Complex."
- },
- {
-   "id": "osawatomie_camping",
-   "name": "Osawatomie City Lake Campground",
-   "type": "Camping",
-   "nearestTownId": "osawatomie",
-   "distanceFromTrail": 1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Osawatomie+City+Lake+Campground",
-   "websiteUrl": "",
-   "description": "City-run campground with basic amenities near Beaver Lake."
- },
- {
-   "id": "john_brown_park",
-   "name": "John Brown Memorial Park",
-   "type": "Historical Sites",
-   "nearestTownId": "osawatomie",
-   "distanceFromTrail": 0.5,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=John+Brown+Memorial+Park+Osawatomie",
-   "websiteUrl": "",
-   "description": "A historic park commemorating the abolitionist John Brown."
- },
- {
-   "id": "rantoul_parking",
-   "name": "Rantoul Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "osawatomie",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Rantoul+Trailhead",
-   "websiteUrl": "",
-   "description": "Gravel parking lot with a kiosk and trail access."
- },
- {
-   "id": "ottawa_parking",
-   "name": "Legacy Square Parking",
-   "type": "Parking",
-   "nearestTownId": "osawatomie",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Legacy+Square+Ottawa+KS",
-   "websiteUrl": "",
-   "description": "Paved parking in downtown Ottawa where the Flint Hills Trail intersects the Prairie Spirit Trail."
- },
- {
-   "id": "ottawa_restroom",
-   "name": "Public Restrooms (Old Depot)",
-   "type": "Restroom",
-   "nearestTownId": "osawatomie",
-   "distanceFromTrail": 0.2,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old+Depot+Museum+Ottawa+KS",
-   "websiteUrl": "",
-   "description": "Restrooms are available at the historic Old Depot Museum."
- },
- {
-   "id": "ottawa_bike_shop",
-   "name": "Ottawa Bike and Trail",
-   "type": "Bike Shop",
-   "nearestTownId": "osawatomie",
-   "distanceFromTrail": 0.2,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ottawa+Bike+and+Trail+KS",
-   "websiteUrl": "https://ottawabikeandtrail.com/",
-   "description": "Full-service bike shop offering sales repairs and rentals right near the trail."
- },
- {
-   "id": "old_depot_museum",
-   "name": "Old Depot Museum",
-   "type": "Historical Sites",
-   "nearestTownId": "ottawa",
-   "distanceFromTrail": 0.3,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old+Depot+Museum+Ottawa+KS",
-   "websiteUrl": "",
-   "description": "Local history museum in a restored train depot. A must-see for history buffs."
- },
- {
-   "id": "ottawa_airbnb_1",
-   "name": "Old City Hall Apt #3",
-   "type": "Airbnb",
-   "nearestTownId": "ottawa",
-   "distanceFromTrail": 0.2,
-   "googleMapsUrl": "https://www.airbnb.com/rooms/42075953",
-   "websiteUrl": "",
-   "description": "Apartment in a renovated historic downtown building."
- },
- {
-   "id": "ottawa_airbnb_2",
-   "name": "The Hickory House",
-   "type": "Airbnb",
-   "nearestTownId": "ottawa",
-   "distanceFromTrail": 0.5,
-   "googleMapsUrl": "https://www.airbnb.com/rooms/45652925",
-   "websiteUrl": "",
-   "description": "Vintage bungalow with private parking and modern amenities."
- },
- {
-   "id": "pomona_parking",
-   "name": "Pomona Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "pomona",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Pomona+Trailhead",
-   "websiteUrl": "",
-   "description": "Trail access point with parking and a restroom."
- },
- {
-   "id": "pomona_restroom",
-   "name": "Pomona Trailhead Restroom",
-   "type": "Restroom",
-   "nearestTownId": "pomona",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Pomona+Trailhead",
-   "websiteUrl": "",
-   "description": "Vault toilet available at the trailhead."
- },
- {
-   "id": "pomona_sp",
-   "name": "Pomona State Park",
-   "type": "Camping",
-   "nearestTownId": "pomona",
-   "distanceFromTrail": 3.5,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pomona+State+Park+KS",
-   "websiteUrl": "",
-   "description": "Full-service state park with camping, swimming, and boating. Note: requires a significant detour from the trail."
- },
- {
-   "id": "pomona_airbnb_1",
-   "name": "Lakehouse on Pomona Lake",
-   "type": "Airbnb",
-   "nearestTownId": "pomona",
-   "distanceFromTrail": 2,
-   "googleMapsUrl": "https://www.airbnb.com/rooms/48693023",
-   "websiteUrl": "",
-   "description": "Waterfront house with views of Pomona Lake."
- },
- {
-   "id": "vassar_parking",
-   "name": "Vassar Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "vassar",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Vassar+Trailhead",
-   "websiteUrl": "",
-   "description": "Small parking area in Vassar."
- },
- {
-   "id": "vassar_merc",
-   "name": "Vassar Mercantile",
-   "type": "Groceries",
-   "nearestTownId": "vassar",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vassar+Mercantile",
-   "websiteUrl": "",
-   "description": "Small town store with snacks drinks and basic supplies."
- },
- {
-   "id": "osage_parking",
-   "name": "Osage City Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "osage-city",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Osage+City+Trailhead",
-   "websiteUrl": "",
-   "description": "Trail access on the east side of town."
- },
- {
-   "id": "osage_grocery",
-   "name": "Jerry's Thriftway",
-   "type": "Groceries",
-   "nearestTownId": "osage-city",
-   "distanceFromTrail": 0.8,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jerrys+Thriftway+Osage+City+KS",
-   "websiteUrl": "",
-   "description": "Full-service grocery store a good resupply point."
- },
- {
-   "id": "osage_pizza",
-   "name": "Buzzards Pizza",
-   "type": "Dining",
-   "nearestTownId": "osage-city",
-   "distanceFromTrail": 0.7,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Buzzards+Pizza+Osage+City+KS",
-   "websiteUrl": "",
-   "description": "Local favorite for pizza and sandwiches."
- },
- {
-   "id": "osage_airbnb_1",
-   "name": "Harvest Acres Studio Apartment",
-   "type": "Airbnb",
-   "nearestTownId": "osage-city",
-   "distanceFromTrail": 1,
-   "googleMapsUrl": "https://www.airbnb.com/rooms/53798363",
-   "websiteUrl": "",
-   "description": "Cozy studio apartment on a small farm."
- },
- {
-   "id": "osage_koch_guesthouse",
-   "name": "Koch Guesthouse",
-   "type": "Airbnb",
-   "nearestTownId": "osage-city",
-   "distanceFromTrail": 0.2,
-   "googleMapsUrl": "https://maps.app.goo.gl/fmTNf96Ei7WoQ8fi7",
-   "websiteUrl": "",
-   "description": "Charming guesthouse located very close to the trail."
- },
- {
-   "id": "osage_tall_oak_inn",
-   "name": "Tall Oak Inn",
-   "type": "Airbnb",
-   "nearestTownId": "osage-city",
-   "distanceFromTrail": 0.3,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tall+Oak+Inn+Osage+City+KS",
-   "websiteUrl": "",
-   "description": "An inn offering comfortable rooms near downtown."
- },
- {
-   "id": "miller_parking",
-   "name": "Miller Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "miller",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Miller+Trailhead",
-   "websiteUrl": "",
-   "description": "Parking area with a vault toilet and water."
- },
- {
-   "id": "miller_water",
-   "name": "Miller Water & Restroom",
-   "type": "Water",
-   "nearestTownId": "miller",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Miller+Trailhead",
-   "websiteUrl": "",
-   "description": "Seasonal water pump available at the trailhead."
- },
- {
-   "id": "miller_restroom",
-   "name": "Miller Restroom",
-   "type": "Restroom",
-   "nearestTownId": "miller",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Miller+Trailhead",
-   "websiteUrl": "",
-   "description": "Vault toilet available at the trailhead."
- },
- {
-   "id": "admire_parking",
-   "name": "Admire Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "admire",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
-   "websiteUrl": "",
-   "description": "Trail access with parking water and a restroom."
- },
- {
-   "id": "admire_water",
-   "name": "Admire Water & Restroom",
-   "type": "Water",
-   "nearestTownId": "admire",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
-   "websiteUrl": "",
-   "description": "Seasonal water pump available at the trailhead."
- },
- {
-   "id": "admire_restroom",
-   "name": "Admire Restroom",
-   "type": "Restroom",
-   "nearestTownId": "admire",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
-   "websiteUrl": "",
-   "description": "Vault toilet available at the trailhead."
- },
- {
-   "id": "allen_parking",
-   "name": "Allen Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "allen",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Allen+Trailhead",
-   "websiteUrl": "",
-   "description": "Parking area in the town of Allen."
- },
- {
-   "id": "allen_dining",
-   "name": "Keianna's Dive",
-   "type": "Dining",
-   "nearestTownId": "allen",
-   "distanceFromTrail": 0.2,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Keiannas+Dive+Allen+KS",
-   "websiteUrl": "",
-   "description": "Small town diner with burgers and classic American fare."
- },
- {
-   "id": "basecamp_flint_hills",
-   "name": "Basecamp Flint Hills",
-   "type": "Camping",
-   "nearestTownId": "allen",
-   "distanceFromTrail": 1.5,
-   "googleMapsUrl": "https://www.hipcamp.com/en-US/kansas/basecamp-flint-hills/basecamp-flint-hills",
-   "websiteUrl": "https://www.basecampflinthills.com/",
-   "description": "Hipcamp location offering campsites for tents and small RVs."
- },
- {
-   "id": "bushong_parking",
-   "name": "Bushong Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "bushong",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
-   "websiteUrl": "",
-   "description": "One of the most scenic trailheads with parking water and restroom."
- },
- {
-   "id": "bushong_water",
-   "name": "Bushong Water & Restroom",
-   "type": "Water",
-   "nearestTownId": "bushong",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
-   "websiteUrl": "",
-   "description": "Seasonal water pump available at the trailhead."
- },
- {
-   "id": "bushong_restroom",
-   "name": "Bushong Restroom",
-   "type": "Restroom",
-   "nearestTownId": "bushong",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
-   "websiteUrl": "",
-   "description": "Vault toilet available at the trailhead."
- },
- {
-   "id": "bushong_camping",
-   "name": "Bushong Primitive Camping",
-   "type": "Camping",
-   "nearestTownId": "bushong",
-   "distanceFromTrail": 0.2,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
-   "websiteUrl": "",
-   "description": "Free primitive campsites available near the trailhead."
- },
- {
-   "id": "cg_parking",
-   "name": "Council Grove Trailhead Parking",
-   "type": "Parking",
-   "nearestTownId": "council-grove",
-   "distanceFromTrail": 0.1,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Council+Grove+Trailhead",
-   "websiteUrl": "",
-   "description": "Official western terminus of the developed trail."
- },
- {
-   "id": "cg_hayes_house",
-   "name": "Hays House 1857 Restaurant & Tavern",
-   "type": "Dining",
-   "nearestTownId": "council-grove",
-   "distanceFromTrail": 0.5,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hays+House+Council+Grove+KS",
-   "websiteUrl": "http://www.hayshouse.com/",
-   "description": "The oldest continuously operating restaurant west of the Mississippi River."
- },
- {
-   "id": "cg_cottage_house",
-   "name": "The Cottage House Hotel",
-   "type": "Hotels",
-   "nearestTownId": "council-grove",
-   "distanceFromTrail": 0.6,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Cottage+House+Hotel+Council+Grove+KS",
-   "websiteUrl": "",
-   "description": "Historic hotel offering a comfortable stay in downtown Council Grove."
- },
- {
-   "id": "cg_lake_camping",
-   "name": "Council Grove Lake Campground",
-   "type": "Camping",
-   "nearestTownId": "council-grove",
-   "distanceFromTrail": 2.5,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Council+Grove+Lake+Campground",
-   "websiteUrl": "",
-   "description": "US Army Corps of Engineers campground with full amenities."
- },
- {
-   "id": "cg_trail_days_cafe",
-   "name": "Trail Days Cafe and Museum",
-   "type": "Dining",
-   "nearestTownId": "council-grove",
-   "distanceFromTrail": 0.4,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trail+Days+Cafe+and+Museum+Council+Grove",
-   "websiteUrl": "",
-   "description": "Cafe located in a historic home serving classic American food."
- },
- {
-   "id": "allegawaho_park",
-   "name": "Allegawaho Heritage Memorial Park",
-   "type": "Historical Sites",
-   "nearestTownId": "council-grove",
-   "distanceFromTrail": 1.5,
-   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Allegawaho+Heritage+Memorial+Park",
-   "websiteUrl": "",
-   "description": "A tribute to the native homeland of the Kaw Nation."
- },
- {
-   "id": "cg_airbnb_1",
-   "name": "Modern, Historic Loft Overlooking Downtown",
-   "type": "Airbnb",
-   "nearestTownId": "council-grove",
-   "distanceFromTrail": 0.3,
-   "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
-   "websiteUrl": "",
-   "description": "Stylish loft in a remodeled historic building on Main Street."
- }
+  {
+    "id": "osawatomie_parking",
+    "name": "Mile Zero Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Osawatomie+Trailhead",
+    "description": "Official eastern terminus of the trail located at the Karl E. Cole Sports Complex."
+  },
+  {
+    "id": "osawatomie_camping",
+    "name": "Osawatomie City Lake Campground",
+    "type": "Camping",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Osawatomie+City+Lake+Campground",
+    "description": "City-run campground with basic amenities near Beaver Lake."
+  },
+  {
+    "id": "john_brown_park",
+    "name": "John Brown Memorial Park",
+    "type": "Historical Sites",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 0.5,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=John+Brown+Memorial+Park+Osawatomie",
+    "description": "A historic park commemorating the abolitionist John Brown."
+  },
+  {
+    "id": "rantoul_parking",
+    "name": "Rantoul Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Rantoul+Trailhead",
+    "description": "Gravel parking lot with a kiosk and trail access."
+  },
+  {
+    "id": "ottawa_parking",
+    "name": "Legacy Square Parking",
+    "type": "Parking",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Legacy+Square+Ottawa+KS",
+    "description": "Paved parking in downtown Ottawa where the Flint Hills Trail intersects the Prairie Spirit Trail."
+  },
+  {
+    "id": "ottawa_restroom",
+    "name": "Public Restrooms (Old Depot)",
+    "type": "Restroom",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 0.2,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old+Depot+Museum+Ottawa+KS",
+    "description": "Restrooms are available at the historic Old Depot Museum."
+  },
+  {
+    "id": "ottawa_bike_shop",
+    "name": "Ottawa Bike and Trail",
+    "type": "Bike Shop",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 0.2,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ottawa+Bike+and+Trail+KS",
+    "websiteUrl": "https://ottawabikeandtrail.com/",
+    "description": "Full-service bike shop offering sales repairs and rentals right near the trail."
+  },
+  {
+    "id": "old_depot_museum",
+    "name": "Old Depot Museum",
+    "type": "Historical Sites",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 0.3,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old+Depot+Museum+Ottawa+KS",
+    "description": "Local history museum in a restored train depot. A must-see for history buffs."
+  },
+  {
+    "id": "ottawa_airbnb_1",
+    "name": "Old City Hall Apt #3",
+    "type": "Airbnb",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 0.2,
+    "googleMapsUrl": "https://www.airbnb.com/rooms/42075953",
+    "description": "Apartment in a renovated historic downtown building."
+  },
+  {
+    "id": "ottawa_airbnb_2",
+    "name": "The Hickory House",
+    "type": "Airbnb",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 0.5,
+    "googleMapsUrl": "https://www.airbnb.com/rooms/45652925",
+    "description": "Vintage bungalow with private parking and modern amenities."
+  },
+  {
+    "id": "pomona_parking",
+    "name": "Pomona Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Pomona+Trailhead",
+    "description": "Trail access point with parking and a restroom."
+  },
+  {
+    "id": "pomona_restroom",
+    "name": "Pomona Trailhead Restroom",
+    "type": "Restroom",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Pomona+Trailhead",
+    "description": "Vault toilet available at the trailhead."
+  },
+  {
+    "id": "pomona_sp",
+    "name": "Pomona State Park",
+    "type": "Camping",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 3.5,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pomona+State+Park+KS",
+    "description": "Full-service state park with camping, swimming, and boating. Note: requires a significant detour from the trail."
+  },
+  {
+    "id": "pomona_airbnb_1",
+    "name": "Lakehouse on Pomona Lake",
+    "type": "Airbnb",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 2,
+    "googleMapsUrl": "https://www.airbnb.com/rooms/48693023",
+    "description": "Waterfront house with views of Pomona Lake."
+  },
+  {
+    "id": "vassar_parking",
+    "name": "Vassar Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "vassar",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Vassar+Trailhead",
+    "description": "Small parking area in Vassar."
+  },
+  {
+    "id": "vassar_merc",
+    "name": "Vassar Mercantile",
+    "type": "Groceries",
+    "nearestTownId": "vassar",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vassar+Mercantile",
+    "description": "Small town store with snacks drinks and basic supplies."
+  },
+  {
+    "id": "osage_parking",
+    "name": "Osage City Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Osage+City+Trailhead",
+    "description": "Trail access on the east side of town."
+  },
+  {
+    "id": "osage_grocery",
+    "name": "Jerry's Thriftway",
+    "type": "Groceries",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 0.8,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jerrys+Thriftway+Osage+City+KS",
+    "description": "Full-service grocery store a good resupply point."
+  },
+  {
+    "id": "osage_pizza",
+    "name": "Buzzards Pizza",
+    "type": "Dining",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 0.7,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Buzzards+Pizza+Osage+City+KS",
+    "description": "Local favorite for pizza and sandwiches."
+  },
+  {
+    "id": "osage_airbnb_1",
+    "name": "Harvest Acres Studio Apartment",
+    "type": "Airbnb",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.airbnb.com/rooms/53798363",
+    "description": "Cozy studio apartment on a small farm."
+  },
+  {
+    "id": "osage_koch_guesthouse",
+    "name": "Koch Guesthouse",
+    "type": "Airbnb",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 0.2,
+    "googleMapsUrl": "https://maps.app.goo.gl/fmTNf96Ei7WoQ8fi7",
+    "description": "Charming guesthouse located very close to the trail."
+  },
+  {
+    "id": "osage_tall_oak_inn",
+    "name": "Tall Oak Inn",
+    "type": "Airbnb",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 0.3,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tall+Oak+Inn+Osage+City+KS",
+    "description": "An inn offering comfortable rooms near downtown."
+  },
+  {
+    "id": "miller_parking",
+    "name": "Miller Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "miller",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Miller+Trailhead",
+    "description": "Parking area with a vault toilet and water."
+  },
+  {
+    "id": "miller_water",
+    "name": "Miller Water & Restroom",
+    "type": "Water",
+    "nearestTownId": "miller",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Miller+Trailhead",
+    "description": "Seasonal water pump available at the trailhead."
+  },
+  {
+    "id": "miller_restroom",
+    "name": "Miller Restroom",
+    "type": "Restroom",
+    "nearestTownId": "miller",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Miller+Trailhead",
+    "description": "Vault toilet available at the trailhead."
+  },
+  {
+    "id": "admire_parking",
+    "name": "Admire Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "admire",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
+    "description": "Trail access with parking water and a restroom."
+  },
+  {
+    "id": "admire_water",
+    "name": "Admire Water & Restroom",
+    "type": "Water",
+    "nearestTownId": "admire",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
+    "description": "Seasonal water pump available at the trailhead."
+  },
+  {
+    "id": "admire_restroom",
+    "name": "Admire Restroom",
+    "type": "Restroom",
+    "nearestTownId": "admire",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
+    "description": "Vault toilet available at the trailhead."
+  },
+  {
+    "id": "allen_parking",
+    "name": "Allen Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "allen",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Allen+Trailhead",
+    "description": "Parking area in the town of Allen."
+  },
+  {
+    "id": "allen_dining",
+    "name": "Keianna's Dive",
+    "type": "Dining",
+    "nearestTownId": "allen",
+    "distanceFromTrail": 0.2,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Keiannas+Dive+Allen+KS",
+    "description": "Small town diner with burgers and classic American fare."
+  },
+  {
+    "id": "basecamp_flint_hills",
+    "name": "Basecamp Flint Hills",
+    "type": "Camping",
+    "nearestTownId": "allen",
+    "distanceFromTrail": 1.5,
+    "googleMapsUrl": "https://www.hipcamp.com/en-US/kansas/basecamp-flint-hills/basecamp-flint-hills",
+    "websiteUrl": "https://www.basecampflinthills.com/",
+    "description": "Hipcamp location offering campsites for tents and small RVs."
+  },
+  {
+    "id": "bushong_parking",
+    "name": "Bushong Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "bushong",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
+    "description": "One of the most scenic trailheads with parking water and restroom."
+  },
+  {
+    "id": "bushong_water",
+    "name": "Bushong Water & Restroom",
+    "type": "Water",
+    "nearestTownId": "bushong",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
+    "description": "Seasonal water pump available at the trailhead."
+  },
+  {
+    "id": "bushong_restroom",
+    "name": "Bushong Restroom",
+    "type": "Restroom",
+    "nearestTownId": "bushong",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
+    "description": "Vault toilet available at the trailhead."
+  },
+  {
+    "id": "bushong_camping",
+    "name": "Bushong Primitive Camping",
+    "type": "Camping",
+    "nearestTownId": "bushong",
+    "distanceFromTrail": 0.2,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
+    "description": "Free primitive campsites available near the trailhead."
+  },
+  {
+    "id": "cg_parking",
+    "name": "Council Grove Trailhead Parking",
+    "type": "Parking",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Council+Grove+Trailhead",
+    "description": "Official western terminus of the developed trail."
+  },
+  {
+    "id": "cg_hayes_house",
+    "name": "Hays House 1857 Restaurant & Tavern",
+    "type": "Dining",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 0.5,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hays+House+Council+Grove+KS",
+    "websiteUrl": "http://www.hayshouse.com/",
+    "description": "The oldest continuously operating restaurant west of the Mississippi River."
+  },
+  {
+    "id": "cg_cottage_house",
+    "name": "The Cottage House Hotel",
+    "type": "Hotels",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 0.6,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Cottage+House+Hotel+Council+Grove+KS",
+    "description": "Historic hotel offering a comfortable stay in downtown Council Grove."
+  },
+  {
+    "id": "cg_lake_camping",
+    "name": "Council Grove Lake Campground",
+    "type": "Camping",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 2.5,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Council+Grove+Lake+Campground",
+    "description": "US Army Corps of Engineers campground with full amenities."
+  },
+  {
+    "id": "cg_trail_days_cafe",
+    "name": "Trail Days Cafe and Museum",
+    "type": "Dining",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 0.4,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trail+Days+Cafe+and+Museum+Council+Grove",
+    "description": "Cafe located in a historic home serving classic American food."
+  },
+  {
+    "id": "allegawaho_park",
+    "name": "Allegawaho Heritage Memorial Park",
+    "type": "Historical Sites",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1.5,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Allegawaho+Heritage+Memorial+Park",
+    "description": "A tribute to the native homeland of the Kaw Nation."
+  },
+  {
+    "id": "cg_airbnb_1",
+    "name": "Modern, Historic Loft Overlooking Downtown",
+    "type": "Airbnb",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 0.3,
+    "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
+    "description": "Stylish loft in a remodeled historic building on Main Street."
+  }
 ]
