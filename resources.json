@@ -25,6 +25,7 @@
     "nearestTownId": "osawatomie",
     "distanceFromTrail": 0.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=John+Brown+Memorial+Park+Osawatomie",
+    "websiteUrl": "https://www.osawatomieks.org/parks-recreation/pages/john-brown-memorial-park",
     "description": "A historic park commemorating the abolitionist John Brown."
   },
   {
