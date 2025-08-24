@@ -32,7 +32,7 @@
     "id": "rantoul_parking",
     "name": "Rantoul Trailhead Parking",
     "type": "Parking",
-    "nearestTownId": "osawatomie",
+    "nearestTownId": "rantoul",
     "distanceFromTrail": 0.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Rantoul+Trailhead",
     "description": "Gravel parking lot with a kiosk and trail access."
