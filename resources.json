@@ -394,7 +394,7 @@
   {
     "id": "cg_airbnb_1",
     "name": "Modern, Historic Loft Overlooking Downtown",
-    "type": "Airbnb",
+    "type": "Camping",
     "nearestTownId": "osawatomie",
     "distanceFromTrail": 0.3,
     "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
