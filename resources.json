@@ -126,7 +126,7 @@
     "id": "pomona_airbnb_1",
     "name": "Lakehouse on Pomona Lake",
     "type": "Airbnb",
-    "nearestTownId": "pomona",
+    "nearestTownId": "vassar",
     "distanceFromTrail": 2,
     "googleMapsUrl": "https://www.airbnb.com/rooms/48693023",
     "websiteUrl": "https://www.airbnb.com/rooms/45399257?source_impression_id=p3_1756074965_P3LsVwQ7sxwQI9gC",
