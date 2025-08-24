@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Flint Hills Trail Resource Finder</title>
+  <!-- Tailwind via CDN for styling (no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* tiny helper for service chips */
+    .chip { border: 1px solid #d1d5db; background:#f3f4f6; color:#374151; }
+    .chip.active { background:#166534; color:#fff; border-color:#166534; }
+  </style>
+</head>
+<body class="min-h-screen bg-stone-100 font-sans p-4 sm:p-8 flex items-center justify-center">
+  <div class="bg-white rounded-2xl shadow-xl w-full max-w-4xl overflow-hidden">
+    <header class="bg-green-700 text-white p-6 sm:p-8">
+      <h1 class="text-2xl sm:text-4xl font-bold text-center">Flint Hills Trail Resource Finder</h1>
+      <p class="mt-2 text-center text-sm sm:text-base opacity-90">Find businesses and services along your route.</p>
+    </header>
+
+    <main class="p-6 sm:p-8">
+      <div id="loading" class="text-center text-gray-600 hidden">Loading trail resources from Google Sheet...</div>
+
+      <form id="plannerForm" class="">
+        <!-- Route Selection -->
+        <div class="mb-8">
+          <h2 class="text-xl font-bold text-gray-800 border-b pb-2 mb-4">1. Select Your Route</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="startTown" class="block text-sm font-medium text-gray-700 mb-1">Start Town</label>
+              <select id="startTown" class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500"></select>
+            </div>
+            <div>
+              <label for="endTown" class="block text-sm font-medium text-gray-700 mb-1">End Town</label>
+              <select id="endTown" class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500"></select>
+            </div>
+          </div>
+          <p class="text-xs text-gray-500 mt-2">Note: The section between Council Grove and Herington is currently undeveloped and not open to the public.</p>
+        </div>
+
+        <!-- Service Selection -->
+        <div class="mb-4">
+          <h2 class="text-xl font-bold text-gray-800 border-b pb-2 mb-4">2. Choose Services to Find</h2>
+          <div id="serviceChips" class="flex flex-wrap gap-3"></div>
+        </div>
+
+        <div id="errorBox" class="mt-4 text-center text-red-600 bg-red-100 p-3 rounded-lg hidden"></div>
+
+        <button type="submit" class="mt-4 w-full bg-green-600 text-white font-bold py-3 px-4 rounded-xl shadow-lg hover:bg-green-700 transition-all transform hover:scale-105">
+          Find Resources
+        </button>
+      </form>
+
+      <!-- Results -->
+      <section id="results" class="hidden mt-8">
+        <h2 class="text-2xl font-bold text-gray-800">Resources Found</h2>
+        <p id="resultSubtitle" class="text-gray-600 mb-6"></p>
+
+        <div id="resultList" class="space-y-4"></div>
+
+        <button id="newSearchBtn" class="mt-8 w-full bg-stone-500 text-white font-bold py-3 px-4 rounded-xl shadow-lg hover:bg-stone-600 transition-all transform hover:scale-105">
+          Start a New Search
+        </button>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    /* ------------------------ CONFIG ------------------------ */
+    // Your published Google Sheet link (as provided)
+    const SHEET_PUBHTML_URL =
+      'https://docs.google.com/spreadsheets/d/e/2PACX-1vQmT2UZ2uuUfAShgx7RqVdejjC08NDqpgteQJNAIaaCAnOnuomkWHFGUszg3oyW0yUfsG-CGmH852_v/pubhtml?gid=0&single=true';
+    // Convert to CSV export
+    const SHEET_CSV_URL = SHEET_PUBHTML_URL
+      .replace('/pubhtml?', '/pub?')
+      .replace('single=true', 'single=true&output=csv');
+
+    // Static trail data
+    const TRAIL_TOWNS = [
+      { id: 'osawatomie', name: 'Osawatomie', mileage: 0 },
+      { id: 'rantoul', name: 'Rantoul', mileage: 15 },
+      { id: 'ottawa', name: 'Ottawa', mileage: 25 },
+      { id: 'pomona', name: 'Pomona', mileage: 35 },
+      { id: 'vassar', name: 'Vassar', mileage: 45 },
+      { id: 'osage-city', name: 'Osage City', mileage: 55 },
+      { id: 'miller', name: 'Miller', mileage: 65 },
+      { id: 'admire', name: 'Admire', mileage: 75 },
+      { id: 'allen', name: 'Allen', mileage: 85 },
+      { id: 'bushong', name: 'Bushong', mileage: 95 },
+      { id: 'council-grove', name: 'Council Grove', mileage: 105, note: 'Western trailhead. Section to Herington is undeveloped.' },
+      { id: 'herington', name: 'Herington', mileage: 118, note: 'Section to Council Grove is undeveloped.' },
+    ];
+
+    /* ------------------------ STATE ------------------------ */
+    let ALL_RESOURCES = [];     // loaded from sheet
+    let SELECTED_TYPES = new Set();
+    let SEARCH_RESULT = null;   // holds last result for rendering
+    let REVIEWS = {};           // in-memory reviews keyed by resource id
+
+    /* ------------------------ DOM REFS ------------------------ */
+    const loadingEl = document.getElementById('loading');
+    const plannerForm = document.getElementById('plannerForm');
+    const startTownSel = document.getElementById('startTown');
+    const endTownSel = document.getElementById('endTown');
+    const chipsWrap = document.getElementById('serviceChips');
+    const errorBox = document.getElementById('errorBox');
+    const resultsSection = document.getElementById('results');
+    const resultSubtitle = document.getElementById('resultSubtitle');
+    const resultList = document.getElementById('resultList');
+    const newSearchBtn = document.getElementById('newSearchBtn');
+
+    /* ------------------------ HELPERS ------------------------ */
+    function show(el) { el.classList.remove('hidden'); }
+    function hide(el) { el.classList.add('hidden'); }
+    function setError(msg) {
+      if (!msg) { hide(errorBox); errorBox.textContent = ''; return; }
+      errorBox.textContent = msg; show(errorBox);
+    }
+    function townNameToId(name) {
+      if (!name) return '';
+      const t = TRAIL_TOWNS.find(t => t.name.toLowerCase() === String(name).toLowerCase());
+      return t ? t.id : '';
+    }
+    function getTownById(id) { return TRAIL_TOWNS.find(t => t.id === id); }
+
+    // Small CSV parser (handles quotes and commas)
+    function parseCSV(text) {
+      const rows = [];
+      let cur = '', inQuotes = false;
+      const pushCell = (arr, cell) => arr.push(cell.replace(/^"|"$/g, '').replace(/""/g, '"'));
+      const pushRow = (arr) => { rows.push(arr); };
+
+      let row = [];
+      for (let i = 0; i < text.length; i++) {
+        const c = text[i], n = text[i + 1];
+        if (c === '"' && inQuotes && n === '"') { cur += '"'; i++; continue; }
+        if (c === '"') { inQuotes = !inQuotes; continue; }
+        if (c === ',' && !inQuotes) { pushCell(row, cur); cur = ''; continue; }
+        if ((c === '\n' || c === '\r') && !inQuotes) {
+          if (c === '\r' && n === '\n') i++;
+          pushCell(row, cur); cur = ''; pushRow(row); row = [];
+          continue;
+        }
+        cur += c;
+      }
+      if (cur.length || row.length) { pushCell(row, cur); pushRow(row); }
+      return rows;
+    }
+
+    // Normalize header keys → canonical keys we use
+    function normalizeKey(k) {
+      const s = (k || '').toString().trim().toLowerCase();
+      if (['nearesttownid','nearest_town_id','townid'].includes(s)) return 'nearestTownId';
+      if (['nearesttown','town','nearestown'].includes(s)) return 'nearestTown';
+      if (['dist','distance','distancefromtrail','distance_from_trail','miles'].includes(s)) return 'distanceFromTrail';
+      if (['maps','map','googlemap','googlemaps','googlemapsurl','gmap','google map url'].includes(s)) return 'googleMapsUrl';
+      if (['service','servicetype','type'].includes(s)) return 'type';
+      if (['title','name'].includes(s)) return 'name';
+      if (['id','slug'].includes(s)) return 'id';
+      return k;
+    }
+
+    function toResource(row) {
+      const nearestTownId = row.nearestTownId || townNameToId(row.nearestTown);
+      return {
+        id: row.id || (row.name ? row.name.toLowerCase().replace(/\s+/g, '_') : undefined),
+        name: row.name || '',
+        type: row.type || '',
+        nearestTownId,
+        distanceFromTrail: row.distanceFromTrail ? Number(row.distanceFromTrail) : 0,
+        googleMapsUrl: row.googleMapsUrl || ''
+      };
+    }
+
+    function formatMiles(x) {
+      if (isNaN(x)) return '—';
+      return Number(x).toFixed(1).replace(/\.0$/, '');
+    }
+
+    /* ------------------------ RENDERERS ------------------------ */
+    function renderTownSelects() {
+      const makeOpts = () =>
+        TRAIL_TOWNS.map(t => `<option value="${t.id}">${t.name} (Mile ${t.mileage})</option>`).join('');
+      startTownSel.innerHTML = makeOpts();
+      endTownSel.innerHTML = makeOpts();
+      // defaults
+      startTownSel.value = TRAIL_TOWNS[0].id;
+      const cg = TRAIL_TOWNS.find(t => t.name === 'Council Grove');
+      endTownSel.value = cg ? cg.id : TRAIL_TOWNS[TRAIL_TOWNS.length-1].id;
+    }
+
+    function renderServiceChips() {
+      const types = [...new Set(ALL_RESOURCES.map(r => r.type).filter(Boolean))].sort();
+      chipsWrap.innerHTML = '';
+      types.forEach(type => {
+        const label = document.createElement('label');
+        label.className = 'chip flex items-center px-3 py-1.5 rounded-full text-sm cursor-pointer transition-colors';
+        label.dataset.type = type;
+
+        const span = document.createElement('span');
+        span.className = 'ml-0';
+        span.textContent = type;
+
+        label.addEventListener('click', () => {
+          if (SELECTED_TYPES.has(type)) {
+            SELECTED_TYPES.delete(type);
+            label.classList.remove('active');
+          } else {
+            SELECTED_TYPES.add(type);
+            label.classList.add('active');
+          }
+        });
+
+        label.appendChild(span);
+        chipsWrap.appendChild(label);
+      });
+    }
+
+    function renderResults(found, startName, endName) {
+      resultSubtitle.textContent = `Showing results for your trip from ${startName} to ${endName}.`;
+      resultList.innerHTML = '';
+
+      if (!found.length) {
+        resultList.innerHTML = `
+          <div class="text-center py-8 px-4 bg-gray-50 rounded-lg">
+            <p class="text-gray-600">No resources matched your search criteria.</p>
+            <p class="text-sm text-gray-500 mt-1">Try selecting different services or expanding your route.</p>
+          </div>`;
+        return;
+      }
+
+      found.forEach(res => {
+        const town = getTownById(res.nearestTownId);
+        const card = document.createElement('div');
+        card.className = 'p-4 bg-gray-50 rounded-xl border border-gray-200 shadow-sm';
+
+        card.innerHTML = `
+          <h3 class="text-lg font-bold text-gray-900">${res.name}</h3>
+          <div class="flex flex-wrap items-center text-sm text-gray-500 mt-1">
+            <span>Near: ${town ? `${town.name} (Mile ${town.mileage})` : 'N/A'}</span>
+            <span class="mx-2">|</span>
+            <span>~${formatMiles(res.distanceFromTrail)} mi from trail</span>
+          </div>
+          ${res.googleMapsUrl ? `
+            <a href="${res.googleMapsUrl}" target="_blank" rel="noopener noreferrer"
+               class="inline-block mt-2 px-3 py-1 bg-blue-500 text-white text-sm rounded-full hover:bg-blue-600">
+              View on Google Maps
+            </a>` : ''}
+          <div class="mt-4 pt-3 border-t border-gray-200">
+            <h4 class="font-semibold text-gray-700">Reviews</h4>
+            <div class="space-y-3 mt-2" data-reviews="${res.id}"></div>
+            <button class="mt-3 text-sm text-green-600 hover:text-green-800 font-semibold" data-toggle-form="${res.id}">
+              Leave a Review
+            </button>
+            <form class="mt-2 p-3 bg-gray-50 rounded-lg space-y-2 hidden" data-form="${res.id}">
+              <input type="text" placeholder="Your Name" class="w-full p-2 border rounded-md text-sm" required data-author>
+              <textarea placeholder="Your review..." class="w-full p-2 border rounded-md text-sm" required data-comment></textarea>
+              <div class="flex items-center">
+                <label class="text-sm font-medium mr-2">Rating:</label>
+                <select class="p-1 border rounded-md text-sm" data-rating>
+                  <option>5</option><option>4</option><option>3</option><option>2</option><option>1</option>
+                </select>
+                <button type="submit" class="ml-auto px-4 py-1.5 bg-green-600 text-white rounded-lg text-sm font-bold hover:bg-green-700">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        `;
+
+        resultList.appendChild(card);
+
+        // wire reviews
+        if (!REVIEWS[res.id]) REVIEWS[res.id] = [];
+        const listEl = card.querySelector(`[data-reviews="${res.id}"]`);
+        const toggleBtn = card.querySelector(`[data-toggle-form="${res.id}"]`);
+        const formEl = card.querySelector(`[data-form="${res.id}"]`);
+
+        function redrawReviews() {
+          const reviews = REVIEWS[res.id];
+          if (!reviews.length) {
+            listEl.innerHTML = `<p class="text-sm text-gray-500 mt-1">No reviews yet. Be the first!</p>`;
+            return;
+          }
+          listEl.innerHTML = reviews.map(rv => `
+            <div class="p-2 bg-gray-100 rounded">
+              <div class="flex items-center">
+                <span class="font-bold text-gray-800">${rv.author}</span>
+                <span class="ml-auto text-yellow-500">${'★'.repeat(rv.rating)}${'☆'.repeat(5 - rv.rating)}</span>
+              </div>
+              <p class="text-gray-600 text-sm italic">"${rv.comment}"</p>
+            </div>
+          `).join('');
+        }
+        redrawReviews();
+
+        toggleBtn.addEventListener('click', () => {
+          formEl.classList.toggle('hidden');
+          toggleBtn.textContent = formEl.classList.contains('hidden') ? 'Leave a Review' : 'Cancel';
+        });
+
+        formEl.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const author = formEl.querySelector('[data-author]').value.trim();
+          const comment = formEl.querySelector('[data-comment]').value.trim();
+          const rating = Number(formEl.querySelector('[data-rating]').value);
+          if (!author || !comment) return;
+          REVIEWS[res.id].push({ author, comment, rating });
+          formEl.reset();
+          formEl.classList.add('hidden');
+          toggleBtn.textContent = 'Leave a Review';
+          redrawReviews();
+        });
+      });
+    }
+
+    /* ------------------------ FILTER & SEARCH ------------------------ */
+    function handleSearch(e) {
+      e.preventDefault();
+      setError('');
+
+      const start = getTownById(startTownSel.value);
+      const end = getTownById(endTownSel.value);
+      const services = Array.from(SELECTED_TYPES);
+
+      if (!start || !end) { setError('Please select a valid start and end town.'); return; }
+      if (!services.length) { setError('Please select at least one service to search for.'); return; }
+
+      const minM = Math.min(start.mileage, end.mileage);
+      const maxM = Math.max(start.mileage, end.mileage);
+      const townsOnRoute = new Set(TRAIL_TOWNS.filter(t => t.mileage >= minM && t.mileage <= maxM).map(t => t.id));
+      const found = ALL_RESOURCES.filter(r => services.includes(r.type) && townsOnRoute.has(r.nearestTownId));
+
+      SEARCH_RESULT = { found, startName: start.name, endName: end.name };
+      renderResults(found, start.name, end.name);
+      hide(plannerForm);
+      show(resultsSection);
+    }
+
+    newSearchBtn.addEventListener('click', () => {
+      show(plannerForm);
+      hide(resultsSection);
+      setError('');
+    });
+
+    /* ------------------------ INIT ------------------------ */
+    async function init() {
+      renderTownSelects();
+      show(loadingEl);
+
+      try {
+        const res = await fetch(SHEET_CSV_URL);
+        if (!res.ok) throw new Error('Fetch failed: ' + res.status);
+        const csv = await res.text();
+        const table = parseCSV(csv);
+        if (!table.length) throw new Error('Empty CSV');
+
+        const headers = table[0].map(normalizeKey);
+        const rows = table.slice(1).map(cells => {
+          const obj = {};
+          headers.forEach((h, i) => { if (h) obj[h] = cells[i] ?? ''; });
+          return obj;
+        });
+
+        const mapped = rows.map(toResource)
+          .map(r => r.nearestTownId ? r : { ...r, nearestTownId: townNameToId(r.nearestTown) })
+          .filter(r => r.name && r.type && r.nearestTownId); // require basics
+
+        ALL_RESOURCES = mapped;
+        renderServiceChips();
+      } catch (err) {
+        console.error('Sheet load failed. You can still hardcode fallback data.', err);
+        setError('Could not load resources from Google Sheet. Try reloading the page.');
+      } finally {
+        hide(loadingEl);
+      }
+    }
+
+    plannerForm.addEventListener('submit', handleSearch);
+    init();
+  </script>
+</body>
+</html>
