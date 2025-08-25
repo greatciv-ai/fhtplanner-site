@@ -105,6 +105,16 @@
     "description": "Vintage bungalow with private parking and modern amenities."
   },
   {
+    "id": "ottawa_camping_1",
+    "name": "Lake Georgia-Sue",
+    "type": "Camping",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 0.2,
+    "googleMapsUrl": "https://maps.app.goo.gl/UP4ViQwGnpwJJoJK6",
+    "websiteUrl": "https://www.hipcamp.com/en-US/land/kansas-lake-georgia-sue-j29h8kj1?adults=1&children=0&srid=b831e398-353f-4ace-8c48-21916852f3a8",
+    "description": "Lake Georgia-Sue is an 85 acre oasis of relaxation and fun. We are located in East Central Kansas, not far from Kansas City, Topeka, Lawrence, and Wichita. The lake itself is 8 acres, with a lot of fish, swimming, small craft boating, kayaking, and wind surfing."
+  },
+  {
     "id": "pomona_parking",
     "name": "Pomona Trailhead Parking",
     "type": "Parking",
@@ -395,15 +405,5 @@
     "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
     "websiteUrl": "https://www.airbnb.com/rooms/54327603?source_impression_id=p3_1756075347_P3cIE8GPSBTyAaYB",
     "description": "Stylish loft in a remodeled historic building on Main Street."
-  },
-  {
-    "id": "ottawa_camping_1",
-    "name": "Lake Georgia-Sue",
-    "type": "Camping",
-    "nearestTownId": "ottawa",
-    "distanceFromTrail": 0.2,
-    "googleMapsUrl": "https://maps.app.goo.gl/UP4ViQwGnpwJJoJK6",
-    "websiteUrl": "https://www.hipcamp.com/en-US/land/kansas-lake-georgia-sue-j29h8kj1?adults=1&children=0&srid=b831e398-353f-4ace-8c48-21916852f3a8",
-    "description": "Lake Georgia-Sue is an 85 acre oasis of relaxation and fun. We are located in East Central Kansas, not far from Kansas City, Topeka, Lawrence, and Wichita. The lake itself is 8 acres, with a lot of fish, swimming, small craft boating, kayaking, and wind surfing."
   }
 ]
