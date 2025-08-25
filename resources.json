@@ -947,7 +947,7 @@
     "id": "osawatomie_bike shop_2",
     "name": "",
     "type": "Bike Shop",
-    "nearestTownId": "",
+    "nearestTownId": "osawatomie",
     "distanceFromTrail": 0,
     "googleMapsUrl": ""
   }
