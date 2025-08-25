@@ -324,7 +324,7 @@
   {
     "id": "ottawa_hotel_1",
     "name": "SureStay Hotel by Best Western Ottawa",
-    "type": "Hotel",
+    "type": "Hotels",
     "nearestTownId": "ottawa",
     "distanceFromTrail": 1.8,
     "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ3",
