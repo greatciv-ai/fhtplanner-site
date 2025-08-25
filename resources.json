@@ -242,6 +242,7 @@
     "nearestTownId": "miller",
     "distanceFromTrail": 0.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Miller+Trailhead",
+    "websiteUrl": "https://ksoutdoors.gov/State-Parks/Locations/Flint-Hills-Trail",
     "description": "Seasonal water pump available at the trailhead."
   },
   {
