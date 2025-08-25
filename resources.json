@@ -405,5 +405,15 @@
     "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
     "websiteUrl": "https://www.airbnb.com/rooms/54327603?source_impression_id=p3_1756075347_P3cIE8GPSBTyAaYB",
     "description": "Stylish loft in a remodeled historic building on Main Street."
+  },
+  {
+    "id": "john_brown_park",
+    "name": "John Brown Memorial Park",
+    "type": "Historical Sites",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 0.5,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=John+Brown+Memorial+Park+Osawatomie",
+    "websiteUrl": "https://www.osawatomieks.org/parks-recreation/pages/john-brown-memorial-park",
+    "description": "A historic park commemorating the abolitionist John Brown."
   }
 ]
