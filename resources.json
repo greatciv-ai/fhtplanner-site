@@ -929,7 +929,7 @@
     "name": "Public Restrooms (Public Library)",
     "type": "Restroom",
     "nearestTownId": "",
-    "distanceFromTrail": 0,
+    "distanceFromTrail": 1.1,
     "googleMapsUrl": ""
   }
 ]
