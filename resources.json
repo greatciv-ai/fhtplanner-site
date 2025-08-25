@@ -940,6 +940,7 @@
     "type": "Bike Shop",
     "nearestTownId": "osawatomie",
     "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "googleMapsUrl": "",
+    "description": "Local shop providing bike repair and basic support for trail riders. Call ahead for availability at (555) 123-4567."
   }
 ]
