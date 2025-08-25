@@ -327,15 +327,6 @@
     "description": "Vault toilet available at the trailhead."
   },
   {
-    "id": "bushong_camping",
-    "name": "Bushong Primitive Camping",
-    "type": "Camping",
-    "nearestTownId": "bushong",
-    "distanceFromTrail": 0.2,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Bushong+Trailhead",
-    "description": "Free primitive campsites available near the trailhead."
-  },
-  {
     "id": "cg_parking",
     "name": "Council Grove Trailhead Parking",
     "type": "Parking",
