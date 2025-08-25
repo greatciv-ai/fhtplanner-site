@@ -856,59 +856,72 @@
     "description": "Bargain retail chain selling a range of household goods, groceries, beauty products & more."
   },
   {
-    "id": "osawatomie_hotel_1,\"Landoll's Motel\",\"Motel\",\"osawatomie\",\"3.3\",\"https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ2\",\"\",\"Basic, budget-friendly motel.\",\"0.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_hotel_1",
+    "name": "Landoll's Motel",
+    "type": "Motel",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 3.3,
+    "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ2",
+    "description": "Basic, budget-friendly motel."
   },
   {
-    "id": "ottawa_hotel_1,\"SureStay Hotel by Best Western Ottawa\",\"Hotel\",\"ottawa\",\"1.8\",\"https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ3\",\"https://www.bestwestern.com/en_US/book/hotel-rooms.17112.html\",\"Straightforward hotel with free Wi-Fi & breakfast, plus an indoor pool & a hot tub.\",\"20.9\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_hotel_1",
+    "name": "SureStay Hotel by Best Western Ottawa",
+    "type": "Hotel",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1.8,
+    "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ3",
+    "websiteUrl": "https://www.bestwestern.com/en_US/book/hotel-rooms.17112.html",
+    "description": "Straightforward hotel with free Wi-Fi & breakfast, plus an indoor pool & a hot tub."
   },
   {
-    "id": "ottawa_hotel_2,\"Super 8 by Wyndham Ottawa\",\"Motel\",\"ottawa\",\"1.7\",\"https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ4\",\"https://www.wyndhamhotels.com/super-8/ottawa-kansas/super-8-ottawa/overview\",\"Casual budget hotel offering free breakfast & Wi-Fi, plus a seasonal outdoor pool.\",\"20.9\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_hotel_2",
+    "name": "Super 8 by Wyndham Ottawa",
+    "type": "Motel",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1.7,
+    "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ4",
+    "websiteUrl": "https://www.wyndhamhotels.com/super-8/ottawa-kansas/super-8-ottawa/overview",
+    "description": "Casual budget hotel offering free breakfast & Wi-Fi, plus a seasonal outdoor pool."
   },
   {
-    "id": "ottawa_hotel_3,\"Comfort Inn Ottawa\",\"Hotel\",\"ottawa\",\"1.7\",\"https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ5\",\"https://www.choicehotels.com/kansas/ottawa/comfort-inn-hotels/ks161\",\"Modern lodging with an indoor pool & exercise room, plus free breakfast, parking & WiFi.\",\"20.8\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_hotel_3",
+    "name": "Comfort Inn Ottawa",
+    "type": "Hotel",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1.7,
+    "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ5",
+    "websiteUrl": "https://www.choicehotels.com/kansas/ottawa/comfort-inn-hotels/ks161",
+    "description": "Modern lodging with an indoor pool & exercise room, plus free breakfast, parking & WiFi."
   },
   {
-    "id": "osage-city_hotel_1,\"Budget Host Inn Osage City\",\"Motel\",\"osage-city\",\"0.6\",\"https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ6\",\"https://www.budgethost.com/hotels/Budget_Host_Osage_City/\",\"No-frills motel rooms with free Wi-Fi.\",\"52.7\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_hotel_1",
+    "name": "Budget Host Inn Osage City",
+    "type": "Motel",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 0.6,
+    "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ6",
+    "websiteUrl": "https://www.budgethost.com/hotels/Budget_Host_Osage_City/",
+    "description": "No-frills motel rooms with free Wi-Fi."
   },
   {
-    "id": "council-grove_hotel_1,\"The Bradford House\",\"Hotel\",\"council-grove\",\"0.5\",\"https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ7\",\"https://www.thebradfordhouse.org/\",\"Cozy lodging in a historic 1800s home.\",\"95.4\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_hotel_1",
+    "name": "The Bradford House",
+    "type": "Hotel",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 0.5,
+    "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ7",
+    "websiteUrl": "https://www.thebradfordhouse.org/",
+    "description": "Cozy lodging in a historic 1800s home."
   },
   {
-    "id": "council-grove_hotel_2,\"Prairie Lodge\",\"Motel\",\"council-grove\",\"1.2\",\"https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ8\",\"https://www.prairielodgecg.com/\",\"Simple, clean lodging with basic amenities.\",\"96.1\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_hotel_2",
+    "name": "Prairie Lodge",
+    "type": "Motel",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1.2,
+    "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ8",
+    "websiteUrl": "https://www.prairielodgecg.com/",
+    "description": "Simple, clean lodging with basic amenities."
   }
 ]
