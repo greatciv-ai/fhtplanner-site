@@ -418,395 +418,441 @@
     "description": "Stylish loft in a remodeled historic building on Main Street."
   },
   {
-    "id": "osawatomie_gas_1,\"G & S Convenience Store Inc\",\"Gas Station\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=G+%26+S+Convenience+Store+Inc,301+Eastgate+Dr,Osawatomie,KS\",\"\",\"A store and gas station.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_gas_1",
+    "name": "G & S Convenience Store Inc",
+    "type": "Gas Station",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=G+%26+S+Convenience+Store+Inc,301+Eastgate+Dr,Osawatomie,KS",
+    "description": "A store and gas station."
   },
   {
-    "id": "osawatomie_gas_2,\"Casey's\",\"Gas Station\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Casey's,503+E+Main+St,Osawatomie,KS\",\"\",\"Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_gas_2",
+    "name": "Casey's",
+    "type": "Gas Station",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Casey's,503+E+Main+St,Osawatomie,KS",
+    "description": "Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods."
   },
   {
-    "id": "osawatomie_dining_1,\"Whistle Stop Cafe\",\"Dining\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Whistle+Stop+Cafe,901+6th+St,Osawatomie,KS\",\"\",\"Local cafe serving breakfast, lunch, and dinner.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_dining_1",
+    "name": "Whistle Stop Cafe",
+    "type": "Dining",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Whistle+Stop+Cafe,901+6th+St,Osawatomie,KS",
+    "description": "Local cafe serving breakfast, lunch, and dinner."
   },
   {
-    "id": "osawatomie_dining_2,\"La Hacienda\",\"Dining\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=La+Hacienda,546+Main+St,Osawatomie,KS\",\"\",\"Mexican restaurant.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_dining_2",
+    "name": "La Hacienda",
+    "type": "Dining",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Hacienda,546+Main+St,Osawatomie,KS",
+    "description": "Mexican restaurant."
   },
   {
-    "id": "osawatomie_dining_3,\"China Restaurant\",\"Dining\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=China+Restaurant,1230+6th+St,Osawatomie,KS\",\"\",\"Chinese restaurant.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_dining_3",
+    "name": "China Restaurant",
+    "type": "Dining",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=China+Restaurant,1230+6th+St,Osawatomie,KS",
+    "description": "Chinese restaurant."
   },
   {
-    "id": "osawatomie_dining_4,\"Cookie's Long Shots Bar & Grill\",\"Dining\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Cookie's+Long+Shots+Bar+%26+Grill,607+Kelly+Ave,Osawatomie,KS\",\"\",\"Bar and grill.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_dining_4",
+    "name": "Cookie's Long Shots Bar & Grill",
+    "type": "Dining",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cookie's+Long+Shots+Bar+%26+Grill,607+Kelly+Ave,Osawatomie,KS",
+    "description": "Bar and grill."
   },
   {
-    "id": "osawatomie_dining_5,\"We B Smokin'\",\"Dining\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=We+B+Smokin',32580+Airport+Rd,Paola,KS\",\"\",\"BBQ restaurant.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_dining_5",
+    "name": "We B Smokin'",
+    "type": "Dining",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=We+B+Smokin',32580+Airport+Rd,Paola,KS",
+    "description": "BBQ restaurant."
   },
   {
-    "id": "osawatomie_grocery_1,\"OZ Mart\",\"Groceries\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=OZ+Mart,432+Main+St,Osawatomie,KS\",\"\",\"Small grocery market.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_grocery_1",
+    "name": "OZ Mart",
+    "type": "Groceries",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=OZ+Mart,432+Main+St,Osawatomie,KS",
+    "description": "Small grocery market."
   },
   {
-    "id": "osawatomie_grocery_2,\"Palace Market and Custom Meats\",\"Groceries\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Palace+Market+and+Custom+Meats,568+Main+St,Osawatomie,KS\",\"\",\"Market and meat shop.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_grocery_2",
+    "name": "Palace Market and Custom Meats",
+    "type": "Groceries",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Palace+Market+and+Custom+Meats,568+Main+St,Osawatomie,KS",
+    "description": "Market and meat shop."
   },
   {
-    "id": "osawatomie_grocery_3,\"Dollar General\",\"Groceries\",\"osawatomie\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Dollar+General,306+6th+St,Osawatomie,KS\",\"\",\"Bargain retail chain selling a range of household goods, groceries, beauty products & more.\",\"0\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osawatomie_grocery_3",
+    "name": "Dollar General",
+    "type": "Groceries",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dollar+General,306+6th+St,Osawatomie,KS",
+    "description": "Bargain retail chain selling a range of household goods, groceries, beauty products & more."
   },
   {
-    "id": "ottawa_gas_1,\"Zarco 66\",\"Gas Station\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Zarco+66,2518+E+Logan+St,Ottawa,KS\",\"\",\"Gas station and convenience store.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_gas_1",
+    "name": "Zarco 66",
+    "type": "Gas Station",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zarco+66,2518+E+Logan+St,Ottawa,KS",
+    "description": "Gas station and convenience store."
   },
   {
-    "id": "ottawa_gas_2,\"Amoco\",\"Gas Station\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Amoco,1621+S+Main+St,Ottawa,KS\",\"\",\"Gas station.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_gas_2",
+    "name": "Amoco",
+    "type": "Gas Station",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amoco,1621+S+Main+St,Ottawa,KS",
+    "description": "Gas station."
   },
   {
-    "id": "ottawa_gas_3,\"Love's Travel Stop\",\"Gas Station\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Love's+Travel+Stop,203+E+27th+St,Ottawa,KS\",\"\",\"Truck stop with gas and food.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_gas_3",
+    "name": "Love's Travel Stop",
+    "type": "Gas Station",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Love's+Travel+Stop,203+E+27th+St,Ottawa,KS",
+    "description": "Truck stop with gas and food."
   },
   {
-    "id": "ottawa_dining_1,\"PrimeTime Grille\",\"Dining\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=PrimeTime+Grille,2204+S+Princeton+Cir+Dr,Ottawa,KS\",\"\",\"American restaurant.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_dining_1",
+    "name": "PrimeTime Grille",
+    "type": "Dining",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PrimeTime+Grille,2204+S+Princeton+Cir+Dr,Ottawa,KS",
+    "description": "American restaurant."
   },
   {
-    "id": "ottawa_dining_2,\"Amore\",\"Dining\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Amore,127+S+Main+St,Ottawa,KS\",\"\",\"Italian restaurant.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_dining_2",
+    "name": "Amore",
+    "type": "Dining",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amore,127+S+Main+St,Ottawa,KS",
+    "description": "Italian restaurant."
   },
   {
-    "id": "ottawa_dining_3,\"Smoked Creations\",\"Dining\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Smoked+Creations,222+E+Logan+St,Ottawa,KS\",\"\",\"BBQ restaurant.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_dining_3",
+    "name": "Smoked Creations",
+    "type": "Dining",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Smoked+Creations,222+E+Logan+St,Ottawa,KS",
+    "description": "BBQ restaurant."
   },
   {
-    "id": "ottawa_dining_4,\"Blanco’s\",\"Dining\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Blanco’s,1608+S+Main+St,Ottawa,KS\",\"\",\"Mexican restaurant.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_dining_4",
+    "name": "Blanco’s",
+    "type": "Dining",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Blanco’s,1608+S+Main+St,Ottawa,KS",
+    "description": "Mexican restaurant."
   },
   {
-    "id": "ottawa_dining_5,\"Grub and Chug\",\"Dining\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Grub+and+Chug,306+S+Main+St,Ottawa,KS\",\"\",\"Casual dining, bar, and grill.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_dining_5",
+    "name": "Grub and Chug",
+    "type": "Dining",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grub+and+Chug,306+S+Main+St,Ottawa,KS",
+    "description": "Casual dining, bar, and grill."
   },
   {
-    "id": "ottawa_grocery_1,\"Cosentino's Price Chopper\",\"Groceries\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Cosentino's+Price+Chopper,120+E+19th+St,Ottawa,KS\",\"\",\"\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_grocery_1",
+    "name": "Cosentino's Price Chopper",
+    "type": "Groceries",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cosentino's+Price+Chopper,120+E+19th+St,Ottawa,KS"
   },
   {
-    "id": "ottawa_grocery_2,\"Walmart Supercenter\",\"Groceries\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Walmart+Supercenter,2101+S+Princeton+St,Ottawa,KS\",\"\",\"Large retail store with a full grocery section.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_grocery_2",
+    "name": "Walmart Supercenter",
+    "type": "Groceries",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Walmart+Supercenter,2101+S+Princeton+St,Ottawa,KS",
+    "description": "Large retail store with a full grocery section."
   },
   {
-    "id": "ottawa_grocery_3,\"Wray's Bulk Foods\",\"Groceries\",\"ottawa\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Wray's+Bulk+Foods,221+S+Main+St,Ottawa,KS\",\"\",\"Bulk food store.\",\"20\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "ottawa_grocery_3",
+    "name": "Wray's Bulk Foods",
+    "type": "Groceries",
+    "nearestTownId": "ottawa",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wray's+Bulk+Foods,221+S+Main+St,Ottawa,KS",
+    "description": "Bulk food store."
   },
   {
-    "id": "pomona_gas_1,\"Casey's\",\"Gas Station\",\"pomona\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Casey's,210+E+Franklin+St,Pomona,KS\",\"\",\"Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.\",\"30.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "pomona_gas_1",
+    "name": "Casey's",
+    "type": "Gas Station",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Casey's,210+E+Franklin+St,Pomona,KS",
+    "description": "Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods."
   },
   {
-    "id": "pomona_dining_1,\"Amigo's\",\"Dining\",\"pomona\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Amigo's,234+W+Franklin+St,Pomona,KS\",\"\",\"Mexican restaurant.\",\"30.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "pomona_dining_1",
+    "name": "Amigo's",
+    "type": "Dining",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amigo's,234+W+Franklin+St,Pomona,KS",
+    "description": "Mexican restaurant."
   },
   {
-    "id": "pomona_dining_2,\"Leroy's BBQ\",\"Dining\",\"pomona\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Leroy's+BBQ,203+E+Franklin+St,Pomona,KS\",\"\",\"BBQ restaurant.\",\"30.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "pomona_dining_2",
+    "name": "Leroy's BBQ",
+    "type": "Dining",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Leroy's+BBQ,203+E+Franklin+St,Pomona,KS",
+    "description": "BBQ restaurant."
   },
   {
-    "id": "pomona_dining_3,\"Buzzard's Pizza\",\"Dining\",\"pomona\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Buzzard's+Pizza,410+E+Franklin+St,Pomona,KS\",\"\",\"Pizza place.\",\"30.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "pomona_dining_3",
+    "name": "Buzzard's Pizza",
+    "type": "Dining",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Buzzard's+Pizza,410+E+Franklin+St,Pomona,KS",
+    "description": "Pizza place."
   },
   {
-    "id": "pomona_grocery_1,\"Dollar General\",\"Groceries\",\"pomona\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Dollar+General,409+W+Franklin+St,Pomona,KS\",\"\",\"Bargain retail chain selling a range of household goods, groceries, beauty products & more.\",\"30.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "pomona_grocery_1",
+    "name": "Dollar General",
+    "type": "Groceries",
+    "nearestTownId": "pomona",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dollar+General,409+W+Franklin+St,Pomona,KS",
+    "description": "Bargain retail chain selling a range of household goods, groceries, beauty products & more."
   },
   {
-    "id": "vassar_gas_1,\"Cenex\",\"Gas Station\",\"vassar\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Cenex,4961+KS-268,Vassar,KS\",\"\",\"Gas station and convenience store.\",\"41\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "vassar_gas_1",
+    "name": "Cenex",
+    "type": "Gas Station",
+    "nearestTownId": "vassar",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cenex,4961+KS-268,Vassar,KS",
+    "description": "Gas station and convenience store."
   },
   {
-    "id": "vassar_dining_1,\"Breck's Green Acres Restaurant\",\"Dining\",\"vassar\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Breck's+Green+Acres+Restaurant,4961+KS-268,Vassar,KS\",\"\",\"American restaurant.\",\"41\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "vassar_dining_1",
+    "name": "Breck's Green Acres Restaurant",
+    "type": "Dining",
+    "nearestTownId": "vassar",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Breck's+Green+Acres+Restaurant,4961+KS-268,Vassar,KS",
+    "description": "American restaurant."
   },
   {
-    "id": "vassar_dining_2,\"Lamont Hill\",\"Dining\",\"vassar\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Lamont+Hill,22975+KS-368,Vassar,KS\",\"\",\"Restaurant located at the Lamont Hill Motel.\",\"41\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "vassar_dining_2",
+    "name": "Lamont Hill",
+    "type": "Dining",
+    "nearestTownId": "vassar",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lamont+Hill,22975+KS-368,Vassar,KS",
+    "description": "Restaurant located at the Lamont Hill Motel."
   },
   {
-    "id": "vassar_grocery_1,\"Doman's General Store\",\"Groceries\",\"vassar\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Doman's+General+Store,4961+KS-268,Vassar,KS\",\"\",\"General store with groceries.\",\"41\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "vassar_grocery_1",
+    "name": "Doman's General Store",
+    "type": "Groceries",
+    "nearestTownId": "vassar",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Doman's+General+Store,4961+KS-268,Vassar,KS",
+    "description": "General store with groceries."
   },
   {
-    "id": "osage-city_gas_1,\"bp\",\"Gas Station\",\"osage-city\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=bp,110+Market+St,Osage+City,KS\",\"\",\"Gas station.\",\"52.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_gas_1",
+    "name": "bp",
+    "type": "Gas Station",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=bp,110+Market+St,Osage+City,KS",
+    "description": "Gas station."
   },
   {
-    "id": "osage-city_gas_2,\"Casey's\",\"Gas Station\",\"osage-city\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Casey's,210+N+9th+St,Osage+City,KS\",\"\",\"Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.\",\"52.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_gas_2",
+    "name": "Casey's",
+    "type": "Gas Station",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Casey's,210+N+9th+St,Osage+City,KS",
+    "description": "Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods."
   },
   {
-    "id": "osage-city_dining_1,\"Marilynn's Place\",\"Dining\",\"osage-city\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Marilynn's+Place,1216+Laing+St,Osage+City,KS\",\"\",\"American restaurant.\",\"52.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_dining_1",
+    "name": "Marilynn's Place",
+    "type": "Dining",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Marilynn's+Place,1216+Laing+St,Osage+City,KS",
+    "description": "American restaurant."
   },
   {
-    "id": "osage-city_dining_2,\"Ridge Iron Grill LLC\",\"Dining\",\"osage-city\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Ridge+Iron+Grill+LLC,611+Market+St,Osage+City,KS\",\"\",\"Grill and bar.\",\"52.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_dining_2",
+    "name": "Ridge Iron Grill LLC",
+    "type": "Dining",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ridge+Iron+Grill+LLC,611+Market+St,Osage+City,KS",
+    "description": "Grill and bar."
   },
   {
-    "id": "osage-city_dining_3,\"El Ranchito\",\"Dining\",\"osage-city\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=El+Ranchito,115+Market+St,Osage+City,KS\",\"\",\"Mexican restaurant.\",\"52.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_dining_3",
+    "name": "El Ranchito",
+    "type": "Dining",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=El+Ranchito,115+Market+St,Osage+City,KS",
+    "description": "Mexican restaurant."
   },
   {
-    "id": "osage-city_dining_4,\"Bunky's Hickory Pit\",\"Dining\",\"osage-city\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Bunky's+Hickory+Pit,27+Market+St,Osage+City,KS\",\"\",\"BBQ restaurant.\",\"52.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_dining_4",
+    "name": "Bunky's Hickory Pit",
+    "type": "Dining",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bunky's+Hickory+Pit,27+Market+St,Osage+City,KS",
+    "description": "BBQ restaurant."
   },
   {
-    "id": "osage-city_grocery_1,\"White's Foodliner\",\"Groceries\",\"osage-city\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=White's+Foodliner,880+Lakin+St,Osage+City,KS\",\"\",\"\",\"52.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_grocery_1",
+    "name": "White's Foodliner",
+    "type": "Groceries",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=White's+Foodliner,880+Lakin+St,Osage+City,KS"
   },
   {
-    "id": "osage-city_grocery_2,\"DG Market\",\"Groceries\",\"osage-city\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=DG+Market,108+N+9th+St,Osage+City,KS\",\"\",\"Bargain retail chain selling a range of household goods, groceries, beauty products & more.\",\"52.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "osage-city_grocery_2",
+    "name": "DG Market",
+    "type": "Groceries",
+    "nearestTownId": "osage-city",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=DG+Market,108+N+9th+St,Osage+City,KS",
+    "description": "Bargain retail chain selling a range of household goods, groceries, beauty products & more."
   },
   {
-    "id": "admire_gas_1,\"MFA Oil Petro-Card 24\",\"Gas Station\",\"admire\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=MFA+Oil+Petro-Card+24,3200+KS-99,Admire,KS\",\"\",\"24-hour gas station.\",\"68.5\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "admire_gas_1",
+    "name": "MFA Oil Petro-Card 24",
+    "type": "Gas Station",
+    "nearestTownId": "admire",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MFA+Oil+Petro-Card+24,3200+KS-99,Admire,KS",
+    "description": "24-hour gas station."
   },
   {
-    "id": "allen_grocery_1,\"Allen Meat Processing\",\"Groceries\",\"allen\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Allen+Meat+Processing,323+S+Main+St,Allen,KS\",\"\",\"Meat processor and market.\",\"72\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "allen_grocery_1",
+    "name": "Allen Meat Processing",
+    "type": "Groceries",
+    "nearestTownId": "allen",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Allen+Meat+Processing,323+S+Main+St,Allen,KS",
+    "description": "Meat processor and market."
   },
   {
-    "id": "council-grove_gas_1,\"Short Stop #18\",\"Gas Station\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Short+Stop+%2318,9+E+Main+St,Council+Grove,KS\",\"\",\"Gas station and convenience store.\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_gas_1",
+    "name": "Short Stop #18",
+    "type": "Gas Station",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Short+Stop+%2318,9+E+Main+St,Council+Grove,KS",
+    "description": "Gas station and convenience store."
   },
   {
-    "id": "council-grove_gas_2,\"MFA Oil Petro-Card 24\",\"Gas Station\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=MFA+Oil+Petro-Card+24,611+E+Main+St,Council+Grove,KS\",\"\",\"24-hour gas station.\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_gas_2",
+    "name": "MFA Oil Petro-Card 24",
+    "type": "Gas Station",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MFA+Oil+Petro-Card+24,611+E+Main+St,Council+Grove,KS",
+    "description": "24-hour gas station."
   },
   {
-    "id": "council-grove_gas_3,\"Conoco\",\"Gas Station\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Conoco,11+E+Main+St,Council+Grove,KS\",\"\",\"Gas station.\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_gas_3",
+    "name": "Conoco",
+    "type": "Gas Station",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Conoco,11+E+Main+St,Council+Grove,KS",
+    "description": "Gas station."
   },
   {
-    "id": "council-grove_dining_1,\"Saddlerock Cafe\",\"Dining\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Saddlerock+Cafe,15+S+Sixth+St,Council+Grove,KS\",\"\",\"Local cafe.\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_dining_1",
+    "name": "Saddlerock Cafe",
+    "type": "Dining",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saddlerock+Cafe,15+S+Sixth+St,Council+Grove,KS",
+    "description": "Local cafe."
   },
   {
-    "id": "council-grove_dining_2,\"El Rancho Viejo Mexican Restaurant\",\"Dining\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=El+Rancho+Viejo+Mexican+Restaurant,209+Main+St,Council+Grove,KS\",\"\",\"Mexican restaurant.\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_dining_2",
+    "name": "El Rancho Viejo Mexican Restaurant",
+    "type": "Dining",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=El+Rancho+Viejo+Mexican+Restaurant,209+Main+St,Council+Grove,KS",
+    "description": "Mexican restaurant."
   },
   {
-    "id": "council-grove_dining_3,\"Riverbank Brewing\",\"Dining\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Riverbank+Brewing,13+W+Main+St,Council+Grove,KS\",\"\",\"Brewery and restaurant.\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_dining_3",
+    "name": "Riverbank Brewing",
+    "type": "Dining",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Riverbank+Brewing,13+W+Main+St,Council+Grove,KS",
+    "description": "Brewery and restaurant."
   },
   {
-    "id": "council-grove_dining_4,\"Corks & Coffees at the press room\",\"Dining\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Corks+%26+Coffees,208+W+Main+St,Council+Grove,KS\",\"\",\"Coffee and wine bar.\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_dining_4",
+    "name": "Corks & Coffees at the press room",
+    "type": "Dining",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Corks+%26+Coffees,208+W+Main+St,Council+Grove,KS",
+    "description": "Coffee and wine bar."
   },
   {
-    "id": "council-grove_grocery_1,\"Ray's Apple Market\",\"Groceries\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Ray's+Apple+Market,115+E+Main+St,Council+Grove,KS\",\"\",\"\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_grocery_1",
+    "name": "Ray's Apple Market",
+    "type": "Groceries",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ray's+Apple+Market,115+E+Main+St,Council+Grove,KS"
   },
   {
-    "id": "council-grove_grocery_2,\"Dollar General\",\"Groceries\",\"council-grove\",\"1.0\",\"https://www.google.com/maps/search/?api=1&query=Dollar+General,20+Market+St,Council+Grove,KS\",\"\",\"Bargain retail chain selling a range of household goods, groceries, beauty products & more.\",\"92\"",
-    "name": "",
-    "type": "",
-    "nearestTownId": "",
-    "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "id": "council-grove_grocery_2",
+    "name": "Dollar General",
+    "type": "Groceries",
+    "nearestTownId": "council-grove",
+    "distanceFromTrail": 1,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dollar+General,20+Market+St,Council+Grove,KS",
+    "description": "Bargain retail chain selling a range of household goods, groceries, beauty products & more."
   }
 ]
