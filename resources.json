@@ -139,6 +139,35 @@
     "description": "Bargain retail chain selling a range of household goods, groceries, beauty products & more."
   },
   {
+    "id": "osawatomie_restrooms_1",
+    "name": "Public Restrooms (Public Library)",
+    "type": "Restroom",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1.1,
+    "googleMapsUrl": "https://maps.app.goo.gl/8HueJqm8YdtpVd646",
+    "websiteUrl": "https://www.osawatomieks.org/public-library",
+    "description": "Public restroom in library."
+  },
+  {
+    "id": "osawatomie_bike shop_1",
+    "name": "Bike Repair: Freedom’s FrontTire by appt but wide range of availability",
+    "type": "Bike Shop",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1.3,
+    "googleMapsUrl": "https://maps.app.goo.gl/fLoeSHKA4gKozrbT7",
+    "description": "Local shop providing bike repair and basic support for trail riders. Call ahead for availability at 913.731.3849."
+  },
+  {
+    "id": "osawatomie_bike shop_2",
+    "name": "Oz Mart: Assorted Inner Tubes",
+    "type": "Bike Shop",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 1.3,
+    "googleMapsUrl": "https://maps.app.goo.gl/fLoeSHKA4gKozrbT7",
+    "websiteUrl": "https://share.google/cKgJmJsFFvbVIL9z7",
+    "description": "A local shop offering a variety of inner tubes"
+  },
+  {
     "id": "osawatomie_hotel_1",
     "name": "Landoll's Motel",
     "type": "Hotels/Motels",
@@ -923,34 +952,5 @@
     "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ8",
     "websiteUrl": "https://www.prairielodgecg.com/",
     "description": "Simple, clean lodging with basic amenities."
-  },
-  {
-    "id": "osawatomie_restrooms_1",
-    "name": "Public Restrooms (Public Library)",
-    "type": "Restroom",
-    "nearestTownId": "osawatomie",
-    "distanceFromTrail": 1.1,
-    "googleMapsUrl": "https://maps.app.goo.gl/8HueJqm8YdtpVd646",
-    "websiteUrl": "https://www.osawatomieks.org/public-library",
-    "description": "Public restroom in library."
-  },
-  {
-    "id": "osawatomie_bike shop_1",
-    "name": "Bike Repair: Freedom’s FrontTire by appt but wide range of availability",
-    "type": "Bike Shop",
-    "nearestTownId": "osawatomie",
-    "distanceFromTrail": 1.3,
-    "googleMapsUrl": "https://maps.app.goo.gl/fLoeSHKA4gKozrbT7",
-    "description": "Local shop providing bike repair and basic support for trail riders. Call ahead for availability at 913.731.3849."
-  },
-  {
-    "id": "osawatomie_bike shop_2",
-    "name": "Oz Mart: Assorted Inner Tubes",
-    "type": "Bike Shop",
-    "nearestTownId": "osawatomie",
-    "distanceFromTrail": 1.3,
-    "googleMapsUrl": "https://maps.app.goo.gl/fLoeSHKA4gKozrbT7",
-    "websiteUrl": "https://share.google/cKgJmJsFFvbVIL9z7",
-    "description": "A local shop offering a variety of inner tubes"
   }
 ]
