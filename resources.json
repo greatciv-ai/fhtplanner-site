@@ -949,7 +949,8 @@
     "type": "Bike Shop",
     "nearestTownId": "osawatomie",
     "distanceFromTrail": 1.3,
-    "googleMapsUrl": "",
+    "googleMapsUrl": "https://maps.app.goo.gl/fLoeSHKA4gKozrbT7",
+    "websiteUrl": "https://share.google/cKgJmJsFFvbVIL9z7",
     "description": "A local shop offering a variety of inner tubes"
   }
 ]
