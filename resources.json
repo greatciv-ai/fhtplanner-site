@@ -779,7 +779,7 @@
   {
     "id": "cg_cottage_house",
     "name": "The Cottage House Hotel",
-    "type": "Hotels",
+    "type": "Hotels/Motels",
     "nearestTownId": "council-grove",
     "distanceFromTrail": 0.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Cottage+House+Hotel+Council+Grove+KS",
