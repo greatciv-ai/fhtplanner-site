@@ -939,7 +939,7 @@
     "name": "Bike Repair: Freedom’s FrontTire by appt but wide range of availability",
     "type": "Bike Shop",
     "nearestTownId": "osawatomie",
-    "distanceFromTrail": 0,
+    "distanceFromTrail": 1.3,
     "googleMapsUrl": "https://maps.app.goo.gl/fLoeSHKA4gKozrbT7",
     "description": "Local shop providing bike repair and basic support for trail riders. Call ahead for availability at (555) 123-4567."
   }
