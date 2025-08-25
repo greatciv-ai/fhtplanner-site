@@ -930,6 +930,7 @@
     "type": "Restroom",
     "nearestTownId": "osawatomie",
     "distanceFromTrail": 1.1,
-    "googleMapsUrl": ""
+    "googleMapsUrl": "",
+    "description": "Public restroom in library."
   }
 ]
