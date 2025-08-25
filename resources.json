@@ -708,7 +708,7 @@
     "type": "Airbnb",
     "nearestTownId": "admire",
     "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
+    "googleMapsUrl": "https://maps.app.goo.gl/239jfTnEbDc4upav9",
     "websiteUrl": "https://www.airbnb.com/rooms/1423260270957996735?check_in=2025-09-01&check_out=2025-09-06&guests=1&adults=1&s=67&unique_share_id=24a20875-1d89-450a-ab47-fa27ed325c44",
     "description": "Trail access with parking water and a restroom."
   },
