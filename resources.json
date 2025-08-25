@@ -407,51 +407,13 @@
     "description": "Stylish loft in a remodeled historic building on Main Street."
   },
   {
-    "id": "osawatomie_parking",
-    "name": "Mile Zero Trailhead Parking",
-    "type": "Parking",
-    "nearestTownId": "osawatomie",
-    "distanceFromTrail": 0.326578073089701,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Osawatomie+Trailhead",
-    "description": "Official eastern terminus of the trail located at the Karl E. Cole Sports Complex."
-  },
-  {
-    "id": "osawatomie_camping",
-    "name": "Osawatomie City Lake Campground",
-    "type": "Camping",
-    "nearestTownId": "osawatomie",
-    "distanceFromTrail": 0.314889761401389,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Osawatomie+City+Lake+Campground",
-    "websiteUrl": "https://www.osawatomieks.org/osawatomie-city-lake-beaver-lake",
-    "description": "City-run campground with basic amenities near Beaver Lake."
-  },
-  {
     "id": "john_brown_park",
     "name": "John Brown Memorial Park",
-    "type": "Historical Sites",
-    "nearestTownId": "osawatomie",
-    "distanceFromTrail": 0.303201449713078,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=John+Brown+Memorial+Park+Osawatomie",
-    "websiteUrl": "https://www.osawatomieks.org/parks-recreation/pages/john-brown-memorial-park",
-    "description": "A historic park commemorating the abolitionist John Brown."
-  },
-  {
-    "id": "osawatomie_camping_5",
-    "name": "Mile Zero Trailhead Camping",
     "type": "Camping",
     "nearestTownId": "osawatomie",
-    "distanceFromTrail": 0.291513138024766,
-    "googleMapsUrl": "https://maps.app.goo.gl/TpQ7pd4pFdwBgtd17",
-    "websiteUrl": "https://www.osawatomieks.org/visitors/webforms/mile-zero-primitive-camping-registration?fbclid=IwY2xjawMYd4hleHRuA2FlbQIxMQBicmlkETFVWFZzMlpLWU1WVW1nbnNmAR4nkOIuymn4cc036IU2MNYbv7Zsm1a0L-WXN1r9ecro4rH0pAo2nV7HWnfcuQ_aem_3Fy4uRT_dgaZ9Rbl-nPimQ",
-    "description": "Primitive campsites are available for no fee at Mile Zero Trailhead on a first-come, first-served basis. We do not accept reservations for primitive campsites at this time. Each campsite is numbered, and occupied campsites are marked on-site. Please do not register for an occupied campsite. Each campsite can accommodate up to two (2) tents."
-  },
-  {
-    "id": "rantoul_parking",
-    "name": "Rantoul Trailhead Parking",
-    "type": "Parking",
-    "nearestTownId": "rantoul",
-    "distanceFromTrail": 0.279824826336454,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Rantoul+Trailhead",
-    "description": "Gravel parking lot with a kiosk and trail access."
+    "distanceFromTrail": 0.5,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=John+Brown+Memorial+Park+Osawatomie",
+    "websiteUrl": "https://www.osawatomieks.org/parks-recreation/pages/john-brown-memorial-park",
+    "description": "A small number of camping spots are available at John Brown Park in Osawatomie.  There is a small fee for camping and you must pay the fee prior to setting up camp in the park.  Fees can be paid at City Hall or the Police Station during normal business hours.  You may want to call ahead and pay for camping ahead of your visit."
   }
 ]
