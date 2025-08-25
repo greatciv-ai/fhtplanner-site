@@ -29,6 +29,16 @@
     "description": "A historic park commemorating the abolitionist John Brown."
   },
   {
+    "id": "osawatomie_camping_4",
+    "name": "Mile Zero Trailhead Camping",
+    "type": "Camping",
+    "nearestTownId": "osawatomie",
+    "distanceFromTrail": 0.1,
+    "googleMapsUrl": "https://maps.app.goo.gl/TpQ7pd4pFdwBgtd16",
+    "websiteUrl": "https://www.osawatomieks.org/visitors/webforms/mile-zero-primitive-camping-registration?fbclid=IwY2xjawMYd4hleHRuA2FlbQIxMQBicmlkETFVWFZzMlpLWU1WVW1nbnNmAR4nkOIuymn4cc036IU2MNYbv7Zsm1a0L-WXN1r9ecro4rH0pAo2nV7HWnfcuQ_aem_3Fy4uRT_dgaZ9Rbl-nPimQ",
+    "description": "Primitive campsites are available for no fee at Mile Zero Trailhead on a first-come, first-served basis. We do not accept reservations for primitive campsites at this time. Each campsite is numbered, and occupied campsites are marked on-site. Please do not register for an occupied campsite. Each campsite can accommodate up to two (2) tents."
+  },
+  {
     "id": "rantoul_parking",
     "name": "Rantoul Trailhead Parking",
     "type": "Parking",
@@ -390,15 +400,5 @@
     "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
     "websiteUrl": "https://www.airbnb.com/rooms/54327603?source_impression_id=p3_1756075347_P3cIE8GPSBTyAaYB",
     "description": "Stylish loft in a remodeled historic building on Main Street."
-  },
-  {
-    "id": "osawatomie_camping_4",
-    "name": "Mile Zero Trailhead Camping",
-    "type": "Camping",
-    "nearestTownId": "osawatomie",
-    "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://maps.app.goo.gl/TpQ7pd4pFdwBgtd16",
-    "websiteUrl": "https://www.osawatomieks.org/visitors/webforms/mile-zero-primitive-camping-registration?fbclid=IwY2xjawMYd4hleHRuA2FlbQIxMQBicmlkETFVWFZzMlpLWU1WVW1nbnNmAR4nkOIuymn4cc036IU2MNYbv7Zsm1a0L-WXN1r9ecro4rH0pAo2nV7HWnfcuQ_aem_3Fy4uRT_dgaZ9Rbl-nPimQ",
-    "description": "Primitive campsites are available for no fee at Mile Zero Trailhead on a first-come, first-served basis. We do not accept reservations for primitive campsites at this time. Each campsite is numbered, and occupied campsites are marked on-site. Please do not register for an occupied campsite. Each campsite can accommodate up to two (2) tents."
   }
 ]
