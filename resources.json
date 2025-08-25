@@ -141,7 +141,7 @@
   {
     "id": "osawatomie_hotel_1",
     "name": "Landoll's Motel",
-    "type": "Motels",
+    "type": "Hotels/Motels",
     "nearestTownId": "osawatomie",
     "distanceFromTrail": 3.3,
     "googleMapsUrl": "https://maps.google.com/?cid=7948211274297644550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ2",
