@@ -928,7 +928,7 @@
     "id": "osawatomie_restrooms_1",
     "name": "Public Restrooms (Public Library)",
     "type": "Restroom",
-    "nearestTownId": "",
+    "nearestTownId": "osawatomie",
     "distanceFromTrail": 1.1,
     "googleMapsUrl": ""
   }
