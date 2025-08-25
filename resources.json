@@ -161,6 +161,16 @@
     "description": "Small town store with snacks drinks and basic supplies."
   },
   {
+    "id": "vassar_",
+    "name": "Lamont Hill Motel",
+    "type": "Hotels",
+    "nearestTownId": "vassar",
+    "distanceFromTrail": 0.6,
+    "googleMapsUrl": "https://maps.app.goo.gl/E961ijrkk3T6vLE88",
+    "websiteUrl": "https://lamonthilltest.weebly.com/motel.html",
+    "description": "Lamont Hill offers a cozy 10-room motel located right at the entrance to Pomona State Park, complete with an onsite restaurant and easy access to golf, swimming, boating, fishing at Pomona Lake, and hunting opportunities. Rates are very reasonable—starting around $42–$46 on weekdays and slightly higher on weekends and holidays—so be sure to call ahead to check availability and seasonal pricing."
+  },
+  {
     "id": "osage_parking",
     "name": "Osage City Trailhead Parking",
     "type": "Parking",
@@ -300,7 +310,7 @@
   },
   {
     "id": "bushong_water",
-    "name": "Bushong Water & Restroom",
+    "name": "Bushong Water",
     "type": "Water",
     "nearestTownId": "bushong",
     "distanceFromTrail": 0.1,
@@ -391,15 +401,5 @@
     "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
     "websiteUrl": "https://www.airbnb.com/rooms/54327603?source_impression_id=p3_1756075347_P3cIE8GPSBTyAaYB",
     "description": "Stylish loft in a remodeled historic building on Main Street."
-  },
-  {
-    "id": "vassar_",
-    "name": "Lamont Hill Motel",
-    "type": "Hotels",
-    "nearestTownId": "vassar",
-    "distanceFromTrail": 0.6,
-    "googleMapsUrl": "https://maps.app.goo.gl/E961ijrkk3T6vLE88",
-    "websiteUrl": "https://lamonthilltest.weebly.com/motel.html",
-    "description": "Lamont Hill offers a cozy 10-room motel located right at the entrance to Pomona State Park, complete with an onsite restaurant and easy access to golf, swimming, boating, fishing at Pomona Lake, and hunting opportunities. Rates are very reasonable—starting around $42–$46 on weekdays and slightly higher on weekends and holidays—so be sure to call ahead to check availability and seasonal pricing."
   }
 ]
