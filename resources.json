@@ -280,15 +280,6 @@
     "description": "Parking area in the town of Allen."
   },
   {
-    "id": "allen_dining",
-    "name": "Keianna's Dive",
-    "type": "Dining",
-    "nearestTownId": "allen",
-    "distanceFromTrail": 0.2,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Keiannas+Dive+Allen+KS",
-    "description": "Small town diner with burgers and classic American fare."
-  },
-  {
     "id": "basecamp_flint_hills",
     "name": "Basecamp Flint Hills",
     "type": "Camping",
