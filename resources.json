@@ -395,5 +395,13 @@
     "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
     "websiteUrl": "https://www.airbnb.com/rooms/54327603?source_impression_id=p3_1756075347_P3cIE8GPSBTyAaYB",
     "description": "Stylish loft in a remodeled historic building on Main Street."
+  },
+  {
+    "id": "row_43",
+    "name": "Lake Georgia",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
   }
 ]
