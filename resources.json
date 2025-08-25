@@ -393,11 +393,12 @@
     "description": "Stylish loft in a remodeled historic building on Main Street."
   },
   {
-    "id": "row_43",
+    "id": "vassar_",
     "name": "Lamont Hill Motel",
     "type": "Hotels",
     "nearestTownId": "vassar",
     "distanceFromTrail": 0,
-    "googleMapsUrl": ""
+    "googleMapsUrl": "",
+    "websiteUrl": "https://lamonthilltest.weebly.com/motel.html"
   }
 ]
