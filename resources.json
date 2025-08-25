@@ -416,5 +416,397 @@
     "googleMapsUrl": "https://www.airbnb.com/rooms/54327603",
     "websiteUrl": "https://www.airbnb.com/rooms/54327603?source_impression_id=p3_1756075347_P3cIE8GPSBTyAaYB",
     "description": "Stylish loft in a remodeled historic building on Main Street."
+  },
+  {
+    "id": "osawatomie_gas_1,\"G & S Convenience Store Inc\",\"Gas Station\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/211\",\"\",\"A store and gas station.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_gas_2,\"Casey's\",\"Gas Station\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/212\",\"\",\"Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_dining_1,\"Whistle Stop Cafe\",\"Dining\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/213\",\"\",\"Local cafe serving breakfast, lunch, and dinner.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_dining_2,\"La Hacienda\",\"Dining\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/214\",\"\",\"Mexican restaurant.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_dining_3,\"China Restaurant\",\"Dining\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/215\",\"\",\"Chinese restaurant.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_dining_4,\"Cookie's Long Shots Bar & Grill\",\"Dining\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/216\",\"\",\"Bar and grill.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_dining_5,\"We B Smokin'\",\"Dining\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/217\",\"\",\"BBQ restaurant.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_grocery_1,\"OZ Mart\",\"Groceries\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/218\",\"\",\"Small grocery market.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_grocery_2,\"Palace Market and Custom Meats\",\"Groceries\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/219\",\"\",\"Market and meat shop.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osawatomie_grocery_3,\"Dollar General\",\"Groceries\",\"osawatomie\",\"1.0\",\"http://googleusercontent.com/maps/google.com/220\",\"\",\"Bargain retail chain selling a range of household goods, groceries, beauty products & more.\",\"0\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_gas_1,\"Zarco 66\",\"Gas Station\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/221\",\"\",\"Gas station and convenience store.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_gas_2,\"Amoco\",\"Gas Station\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/222\",\"\",\"Gas station.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_gas_3,\"Love's Travel Stop\",\"Gas Station\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/223\",\"\",\"Truck stop with gas and food.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_dining_1,\"PrimeTime Grille\",\"Dining\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/224\",\"\",\"American restaurant.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_dining_2,\"Amore\",\"Dining\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/225\",\"\",\"Italian restaurant.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_dining_3,\"Smoked Creations\",\"Dining\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/226\",\"\",\"BBQ restaurant.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_dining_4,\"Blanco’s\",\"Dining\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/227\",\"\",\"Mexican restaurant.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_dining_5,\"Grub and Chug\",\"Dining\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/228\",\"\",\"Casual dining, bar, and grill.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_grocery_1,\"Cosentino's Price Chopper\",\"Groceries\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/229\",\"\",\"\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_grocery_2,\"Walmart Supercenter\",\"Groceries\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/230\",\"\",\"Large retail store with a full grocery section.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "ottawa_grocery_3,\"Wray's Bulk Foods\",\"Groceries\",\"ottawa\",\"1.0\",\"http://googleusercontent.com/maps/google.com/231\",\"\",\"Bulk food store.\",\"20\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "pomona_gas_1,\"Casey's\",\"Gas Station\",\"pomona\",\"1.0\",\"http://googleusercontent.com/maps/google.com/232\",\"\",\"Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.\",\"30.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "pomona_dining_1,\"Amigo's\",\"Dining\",\"pomona\",\"1.0\",\"http://googleusercontent.com/maps/google.com/233\",\"\",\"Mexican restaurant.\",\"30.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "pomona_dining_2,\"Leroy's BBQ\",\"Dining\",\"pomona\",\"1.0\",\"http://googleusercontent.com/maps/google.com/234\",\"\",\"BBQ restaurant.\",\"30.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "pomona_dining_3,\"Buzzard's Pizza\",\"Dining\",\"pomona\",\"1.0\",\"http://googleusercontent.com/maps/google.com/235\",\"\",\"Pizza place.\",\"30.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "pomona_grocery_1,\"Dollar General\",\"Groceries\",\"pomona\",\"1.0\",\"http://googleusercontent.com/maps/google.com/236\",\"\",\"Bargain retail chain selling a range of household goods, groceries, beauty products & more.\",\"30.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "vassar_gas_1,\"Cenex\",\"Gas Station\",\"vassar\",\"1.0\",\"http://googleusercontent.com/maps/google.com/237\",\"\",\"Gas station and convenience store.\",\"41\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "vassar_dining_1,\"Breck's Green Acres Restaurant\",\"Dining\",\"vassar\",\"1.0\",\"http://googleusercontent.com/maps/google.com/238\",\"\",\"American restaurant.\",\"41\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "vassar_dining_2,\"Lamont Hill\",\"Dining\",\"vassar\",\"1.0\",\"http://googleusercontent.com/maps/google.com/239\",\"\",\"Restaurant located at the Lamont Hill Motel.\",\"41\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "vassar_grocery_1,\"Doman's General Store\",\"Groceries\",\"vassar\",\"1.0\",\"http://googleusercontent.com/maps/google.com/240\",\"\",\"General store with groceries.\",\"41\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osage-city_gas_1,\"bp\",\"Gas Station\",\"osage-city\",\"1.0\",\"http://googleusercontent.com/maps/google.com/241\",\"\",\"Gas station.\",\"52.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osage-city_gas_2,\"Casey's\",\"Gas Station\",\"osage-city\",\"1.0\",\"http://googleusercontent.com/maps/google.com/242\",\"\",\"Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.\",\"52.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osage-city_dining_1,\"Marilynn's Place\",\"Dining\",\"osage-city\",\"1.0\",\"http://googleusercontent.com/maps/google.com/243\",\"\",\"American restaurant.\",\"52.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osage-city_dining_2,\"Ridge Iron Grill LLC\",\"Dining\",\"osage-city\",\"1.0\",\"http://googleusercontent.com/maps/google.com/244\",\"\",\"Grill and bar.\",\"52.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osage-city_dining_3,\"El Ranchito\",\"Dining\",\"osage-city\",\"1.0\",\"http://googleusercontent.com/maps/google.com/245\",\"\",\"Mexican restaurant.\",\"52.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osage-city_dining_4,\"Bunky's Hickory Pit\",\"Dining\",\"osage-city\",\"1.0\",\"http://googleusercontent.com/maps/google.com/246\",\"\",\"BBQ restaurant.\",\"52.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osage-city_grocery_1,\"White's Foodliner\",\"Groceries\",\"osage-city\",\"1.0\",\"http://googleusercontent.com/maps/google.com/247\",\"\",\"\",\"52.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "osage-city_grocery_2,\"DG Market\",\"Groceries\",\"osage-city\",\"1.0\",\"http://googleusercontent.com/maps/google.com/248\",\"\",\"Bargain retail chain selling a range of household goods, groceries, beauty products & more.\",\"52.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "admire_gas_1,\"MFA Oil Petro-Card 24\",\"Gas Station\",\"admire\",\"1.0\",\"http://googleusercontent.com/maps/google.com/249\",\"\",\"24-hour gas station.\",\"68.5\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "allen_grocery_1,\"Allen Meat Processing\",\"Groceries\",\"allen\",\"1.0\",\"http://googleusercontent.com/maps/google.com/250\",\"\",\"Meat processor and market.\",\"72\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_gas_1,\"Short Stop #18\",\"Gas Station\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/251\",\"\",\"Gas station and convenience store.\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_gas_2,\"MFA Oil Petro-Card 24\",\"Gas Station\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/252\",\"\",\"24-hour gas station.\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_gas_3,\"Conoco\",\"Gas Station\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/13\",\"\",\"Gas station.\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_dining_1,\"Saddlerock Cafe\",\"Dining\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/14\",\"\",\"Local cafe.\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_dining_2,\"El Rancho Viejo Mexican Restaurant\",\"Dining\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/15\",\"\",\"Mexican restaurant.\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_dining_3,\"Riverbank Brewing\",\"Dining\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/253\",\"\",\"Brewery and restaurant.\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_dining_4,\"Corks & Coffees at the press room\",\"Dining\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/254\",\"\",\"Coffee and wine bar.\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_grocery_1,\"Ray's Apple Market\",\"Groceries\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/255\",\"\",\"\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
+  },
+  {
+    "id": "council-grove_grocery_2,\"Dollar General\",\"Groceries\",\"council-grove\",\"1.0\",\"http://googleusercontent.com/maps/google.com/256\",\"\",\"Bargain retail chain selling a range of household goods, groceries, beauty products & more.\",\"92\"",
+    "name": "",
+    "type": "",
+    "nearestTownId": "",
+    "distanceFromTrail": 0,
+    "googleMapsUrl": ""
   }
 ]
