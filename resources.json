@@ -237,7 +237,7 @@
   },
   {
     "id": "miller_water",
-    "name": "Miller Water & Restroom",
+    "name": "Miller Water",
     "type": "Water",
     "nearestTownId": "miller",
     "distanceFromTrail": 0.1,
