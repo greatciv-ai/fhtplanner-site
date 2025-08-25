@@ -265,7 +265,7 @@
   },
   {
     "id": "admire_water",
-    "name": "Admire Water & Restroom",
+    "name": "Admire Water",
     "type": "Water",
     "nearestTownId": "admire",
     "distanceFromTrail": 0.1,
