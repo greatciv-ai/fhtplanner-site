@@ -705,7 +705,7 @@
   {
     "id": "admire_parking",
     "name": "Admire Trailhead Parking",
-    "type": "Parking",
+    "type": "Airbnb",
     "nearestTownId": "admire",
     "distanceFromTrail": 0.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
