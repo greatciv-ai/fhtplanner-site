@@ -409,7 +409,7 @@
   {
     "id": "john_brown_park",
     "name": "John Brown Memorial Park",
-    "type": "Historical Sites",
+    "type": "Camping",
     "nearestTownId": "osawatomie",
     "distanceFromTrail": 0.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=John+Brown+Memorial+Park+Osawatomie",
