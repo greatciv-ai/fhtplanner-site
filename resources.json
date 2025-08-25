@@ -704,7 +704,7 @@
   },
   {
     "id": "admire_parking",
-    "name": "Admire Trailhead Parking",
+    "name": "Hill Creek Cabin",
     "type": "Airbnb",
     "nearestTownId": "admire",
     "distanceFromTrail": 0.1,
