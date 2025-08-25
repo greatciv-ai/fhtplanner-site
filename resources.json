@@ -455,7 +455,7 @@
   {
     "id": "vassar_",
     "name": "Lamont Hill Motel",
-    "type": "Motels",
+    "type": "Hotels/Motels",
     "nearestTownId": "vassar",
     "distanceFromTrail": 0.6,
     "googleMapsUrl": "https://maps.app.goo.gl/E961ijrkk3T6vLE88",
