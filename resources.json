@@ -320,7 +320,7 @@
     "type": "Groceries",
     "nearestTownId": "ottawa",
     "distanceFromTrail": 1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cosentino's+Price+Chopper,120+E+19th+St,Ottawa,KS"
+    "googleMapsUrl": "https://maps.app.goo.gl/1CP3HRkUbbXpR54h6"
   },
   {
     "id": "ottawa_grocery_2",
