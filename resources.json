@@ -803,7 +803,7 @@
     "type": "Camping",
     "nearestTownId": "council-grove",
     "distanceFromTrail": 2.5,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Council+Grove+Lake+Campground",
+    "googleMapsUrl": "https://maps.app.goo.gl/ca2W86uQRJnnYUvx7",
     "websiteUrl": "https://www.recreation.gov/gateways/551",
     "description": "US Army Corps of Engineers campground with full amenities."
   },
