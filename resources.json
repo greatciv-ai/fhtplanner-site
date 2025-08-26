@@ -652,7 +652,7 @@
     "type": "Parking",
     "nearestTownId": "miller",
     "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Miller+Trailhead",
+    "googleMapsUrl": "https://maps.app.goo.gl/T5YJyrtpVeH2ki1C6",
     "description": "Parking area with a vault toilet and water."
   },
   {
