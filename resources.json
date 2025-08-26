@@ -713,15 +713,6 @@
     "description": "Vault toilet available at the trailhead."
   },
   {
-    "id": "admire_gas_1",
-    "name": "MFA Oil Petro-Card 24",
-    "type": "Gas Station",
-    "nearestTownId": "admire",
-    "distanceFromTrail": 1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MFA+Oil+Petro-Card+24,3200+KS-99,Admire,KS",
-    "description": "24-hour gas station."
-  },
-  {
     "id": "allen_parking",
     "name": "Allen Trailhead Parking",
     "type": "Parking",
