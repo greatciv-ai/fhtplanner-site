@@ -449,7 +449,7 @@
     "type": "Camping",
     "nearestTownId": "vassar",
     "distanceFromTrail": 3.5,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pomona+State+Park+KS",
+    "googleMapsUrl": "https://maps.app.goo.gl/hrrGu4JcgL7KZMVX7",
     "websiteUrl": "https://ksoutdoors.gov/State-Parks/Locations/Pomona",
     "description": "Full-service state park with camping, swimming, and boating. Note: requires a significant detour from the trail."
   },
