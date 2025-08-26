@@ -524,7 +524,7 @@
     "type": "Parking",
     "nearestTownId": "osage-city",
     "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Osage+City+Trailhead",
+    "googleMapsUrl": "https://maps.app.goo.gl/usRQ3VVH7qG7pGX98",
     "description": "Trail access on the east side of town."
   },
   {
