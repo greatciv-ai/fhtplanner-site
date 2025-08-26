@@ -635,7 +635,7 @@
     "type": "Groceries",
     "nearestTownId": "osage-city",
     "distanceFromTrail": 1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=White's+Foodliner,880+Lakin+St,Osage+City,KS"
+    "googleMapsUrl": "https://maps.app.goo.gl/vCFWaoMU3Ac1A1CC6"
   },
   {
     "id": "osage-city_grocery_2",
