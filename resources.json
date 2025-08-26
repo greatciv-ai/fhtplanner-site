@@ -709,7 +709,7 @@
     "type": "Restroom",
     "nearestTownId": "admire",
     "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
+    "googleMapsUrl": "https://maps.app.goo.gl/VQYMRKWNWEfUm9h3A",
     "description": "Vault toilet available at the trailhead."
   },
   {
