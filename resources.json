@@ -209,7 +209,7 @@
     "type": "Bike Shop",
     "nearestTownId": "ottawa",
     "distanceFromTrail": 0.2,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ottawa+Bike+and+Trail+KS",
+    "googleMapsUrl": "https://maps.app.goo.gl/sEsdksFzFSCoF8YC6",
     "websiteUrl": "https://ottawabikeandtrail.com/",
     "description": "Full-service bike shop offering sales repairs and rentals right near the trail."
   },
