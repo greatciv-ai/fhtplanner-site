@@ -680,7 +680,7 @@
     "type": "Parking",
     "nearestTownId": "admire",
     "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Admire+Trailhead",
+    "googleMapsUrl": "https://maps.app.goo.gl/VQYMRKWNWEfUm9h3A",
     "description": "Trail access with parking water and a restroom."
   },
   {
