@@ -737,7 +737,7 @@
     "type": "Groceries",
     "nearestTownId": "allen",
     "distanceFromTrail": 1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Allen+Meat+Processing,323+S+Main+St,Allen,KS",
+    "googleMapsUrl": "https://maps.app.goo.gl/EAPu7gRTnYvKcWWr5",
     "description": "Meat processor and market."
   },
   {
