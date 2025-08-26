@@ -473,15 +473,6 @@
     "description": "Small parking area in Vassar."
   },
   {
-    "id": "vassar_merc",
-    "name": "Vassar Mercantile",
-    "type": "Groceries",
-    "nearestTownId": "vassar",
-    "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vassar+Mercantile",
-    "description": "Small town store with snacks drinks and basic supplies."
-  },
-  {
     "id": "vassar_",
     "name": "Lamont Hill Motel",
     "type": "Hotels/Motels",
