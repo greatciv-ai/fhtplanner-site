@@ -845,15 +845,6 @@
     "description": "Gas station and convenience store."
   },
   {
-    "id": "council-grove_gas_2",
-    "name": "MFA Oil Petro-Card 24",
-    "type": "Gas Station",
-    "nearestTownId": "council-grove",
-    "distanceFromTrail": 1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MFA+Oil+Petro-Card+24,611+E+Main+St,Council+Grove,KS",
-    "description": "24-hour gas station."
-  },
-  {
     "id": "council-grove_gas_3",
     "name": "Conoco",
     "type": "Gas Station",
