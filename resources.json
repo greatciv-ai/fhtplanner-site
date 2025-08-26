@@ -718,7 +718,7 @@
     "type": "Parking",
     "nearestTownId": "allen",
     "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Allen+Trailhead",
+    "googleMapsUrl": "https://maps.app.goo.gl/x3ywrhATkjWngdM4A",
     "description": "Parking area in the town of Allen."
   },
   {
