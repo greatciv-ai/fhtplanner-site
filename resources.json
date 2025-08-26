@@ -386,7 +386,7 @@
     "type": "Parking",
     "nearestTownId": "pomona",
     "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Pomona+Trailhead",
+    "googleMapsUrl": "https://maps.app.goo.gl/V44C42QAz7rRP3Q9A",
     "description": "Trail access point with parking and a restroom."
   },
   {
@@ -395,7 +395,7 @@
     "type": "Restroom",
     "nearestTownId": "pomona",
     "distanceFromTrail": 0.1,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flint+Hills+Trail+Pomona+Trailhead",
+    "googleMapsUrl": "https://maps.app.goo.gl/V44C42QAz7rRP3Q9A",
     "description": "Vault toilet available at the trailhead."
   },
   {
